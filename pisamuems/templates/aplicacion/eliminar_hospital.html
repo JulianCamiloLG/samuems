@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eliminar Hospital</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <h1>¿Estas seguro de elimiar este hospital{{hospital.id1}}?</h1>
+        <button type="submit">Eliminar</button>
+        <button><a href="{% url 'index' %}">Cancelar</a></button>
+    </form>
+</body>
+</html>

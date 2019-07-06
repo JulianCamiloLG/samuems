@@ -1,0 +1,57 @@
+{% extends 'aplicacion/baseListar.html' %}
+{% load crispy_forms_tags %}
+{% block main %}
+    <div class="container">
+        <h1 class="jumbotron-heading"><img style="width:100px; height:100px;" src="https://banner2.kisspng.com/20180906/lzs/kisspng-vector-graphics-logo-clip-art-centre-hospitalier-s-samu-logo-svg-vector-amp-png-transparent-vecto-5b91c3b993d6a4.3548522115362794816056.jpg" </img>
+            Ambulancias Registradas</h1>
+    </div>
+    <hr align="center" noshade="noshade" size="10" width="95%" />
+    <div class="container">
+        <div class="tab">
+            {% for ambulancia in object_list %}
+            <button class="tablinks" onclick="openCity(event, {{ambulancia.numeroMovil}})"> {{ambulancia.numeroMovil}} </button>
+            {% endfor %}
+        </div>
+
+        {% for ambulancia in object_list %}
+        <div id="{{ambulancia.numeroMovil}}" class="tabcontent">
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label>Número de movil</label>
+                    <input type="number" class="form-control" value="{{ambulancia.numeroMovil}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Placa</label>
+                    <input type="text" class="form-control" value="{{ambulancia.placa}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Marca</label>
+                    <input type="text" class="form-control" value="{{ambulancia.marca}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Modelo</label>
+                    <input type="text" class="form-control" value="{{ambulancia.modeloA}}" disabled>
+                </div>
+                <!--<div class="form-group">
+                    <label>Antecedentes personales no patológicos</label>
+                    <input type="text" class="form-control" value="{{ambulancia.apnP}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{paciente.emailP}}" disabled>
+                </div>-->
+                <div class="form-group" align="center">
+                    <button type="submit" class="btn btn-success btn-lg">Editar información</button>
+                    <button type="submit" class="btn btn-success btn-lg">Eliminar ambulancia</button>
+                </div>
+            </form>
+        </div>
+        {% endfor %}
+
+    </div>
+    <hr align="center" noshade="noshade" size="10" width="95%" />
+    <div class="container" align="center">
+        <a href="../crear_ambulancia" class="btn btn-success btn-lg">Agregar Ambulancia</a>
+    </div>
+{% endblock %}

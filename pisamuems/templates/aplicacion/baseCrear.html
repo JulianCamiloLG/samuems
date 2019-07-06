@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static%}
+    <link rel="stylesheet" type="text/css" href="{% static '../assets/css/style.css' %}">
+    <!-- Cargar las librerias de estilos instaladas previamente -->
+    {# Cargamos la librería #}
+    {% load bootstrap4 %}
+    {# CSS Bootstrap #}
+    {% bootstrap_css %}
+    <title>SAMU EMS</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!--<a class="navbar-brand" href="#"><img src="https://cdn.icon-icons.com/icons2/52/PNG/128/bluedentistdoctor_azuldentist_10751.png" class="img-fluid"></a>-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">Merchandising</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form name="bencc" method="get" action="http://www.google.com/search" id="bencc" class="form-inline mt-2 mt-md-0" target="_blank">
+                        <input type="hidden" name="domains" value="google.com">
+                        <input type="hidden" name="sitesearch" value="google.com">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Buscar...">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="document.getElementById('bencc').submit()">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- BLOQUE DONDE SE ASIGNAN LOS FORMULARIOS DE CADA CASO DE USO-->
+        {% block main %}
+        {% endblock %}
+    <footer class="text-muted">
+        <div class="container">
+          <p class="float-right">
+            <a href="#">Subir</a>
+          </p>
+        </div>
+        <div align="center" id="copyright">Copyright&copy; 2019 - Página desarrollada por Proyecto integrador - Todos los derechos reservados</div>
+    </footer>
+</body>
+</html>

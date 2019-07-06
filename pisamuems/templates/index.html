@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widthdevice=width, initial-scale=1-0">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>SAMU - EMS </title>
+        {# Cargamos la librería #}
+	    {% load bootstrap4 %}
+
+	    {# CSS Bootstrap #}
+	    {% bootstrap_css %}
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!--<a class="navbar-brand" href="#"><img src="https://cdn.icon-icons.com/icons2/52/PNG/128/bluedentistdoctor_azuldentist_10751.png" class="img-fluid"></a>-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">Merchandising</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form name="bencc" method="get" action="http://www.google.com/search" id="bencc" class="form-inline mt-2 mt-md-0" target="_blank">
+                        <input type="hidden" name="domains" value="google.com">
+                        <input type="hidden" name="sitesearch" value="google.com">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Buscar...">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="document.getElementById('bencc').submit()">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- P -->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- 5 -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-2390065838671224"
+	     data-ad-slot="2826072263"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<!-- End P -->
+    <main role="main">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Bienvenido al sistema de emergencias SAMU-EMS</h1>
+            <br><br><br><br>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h1>
+                                    Gestionar Hospitales
+                                </h1>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="list-group">
+                            <a href="listar_hospital" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Listar Hospitales</h5>
+                                </div>
+                                <p class="mb-1">Listar todos los hospitales registrados en el sistema</p>
+                            </a>
+                            <br>
+                            <a href="crear_hospital" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Crear Hospital</h5>
+                                </div>
+                                <p class="mb-1">Registrar un nuevo hospital en el sistema</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h1>
+                                    Gestionar Ambulancias
+                                </h1>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="list-group">
+                            <a href="listar_ambulancia" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Listar Ambulancias</h5>
+                                </div>
+                                <p class="mb-1">Listar todas las ambulancias registrados en el sistema</p>
+                            </a>
+                            <br>
+                            <a href="crear_ambulancia" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Crear Ambulancia</h5>
+                                </div>
+                                <p class="mb-1">Registrar una nueva ambulancia en el sistema</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h1>
+                                    Gestionar Perfil
+                                </h1>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="list-group">
+                            <a href="listar_paciente" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Listar Pacientes</h5>
+                                </div>
+                                <p class="mb-1">Listar todos los pacientes registrados en el sistema</p>
+                            </a>
+                            <br>
+                            <a href="crear_paciente" class="list-group-item list-group-item-action active">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">Crear Paciente</h5>
+                                </div>
+                                <p class="mb-1">Registrar un nuevo paciente en el sistema</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="text-muted">
+        <div class="container">
+          <p class="float-right">
+            <a href="#">Subir</a>
+          </p>
+        </div>
+        <div align="center" id="copyright">Copyright&copy; 2019 - Página desarrollada por Proyecto integrador - Todos los derechos reservados</div>
+    </footer>
+    {# JS y jQuery Bootstrap #}
+	{% bootstrap_javascript jquery='full' %}
+</body>
+</html>

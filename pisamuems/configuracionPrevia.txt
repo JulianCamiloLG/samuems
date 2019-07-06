@@ -1,0 +1,125 @@
+[
+  {
+    "model": "appsamuems.Hospital",
+    "pk": 1,
+    "fields": {
+      "nombre": "Hospital san juan de Dios",
+      "direccion": "Carrera 32 # 72-02",
+      "telefono":"8809794",
+      "nivel":"1",
+      "especialidad":"U",
+      "numeroCamas":"50"
+    }
+  },
+  {
+    "model": "appsamuems.Hospital",
+    "pk": 2,
+    "fields": {
+      "nombre": "Hospital Departamental de Caldas",
+      "direccion": "Carrera 25 # 49 - 100",
+      "telefono":"8901054",
+      "nivel":"3",
+      "especialidad":"T",
+      "numeroCamas":"680"
+    }
+  },
+  {
+    "model": "appsamuems.Hospital",
+    "pk": 3,
+    "fields": {
+      "nombre": "Clinica de la Presentacion",
+      "direccion": "Carrera 23 # 46 - 02",
+      "telefono":"8901054",
+      "nivel":"2",
+      "especialidad":"T",
+      "numeroCamas":"60"
+    }
+  },
+  {
+    "model": "appsamuems.Ambulancia",
+    "pk": 1,
+    "fields": {
+      "clase": "A",
+      "marca":"Toyota",
+      "modeloA":"2020",
+      "placa":"TXJ-321",
+      "servicio":"L",
+      "fechaIngreso":"2019-06-01",
+      "foto":"julian.jpg",
+      "ubicacion":"fatima"
+    }
+  },
+  {
+    "model": "appsamuems.Ambulancia",
+    "pk": 2,
+    "fields": {
+      "clase": "B",
+      "marca":"Mercedes Benz",
+      "modeloA":"1947",
+      "placa":"JJJ-000",
+      "servicio":"O",
+      "fechaIngreso":"2000-12-31",
+      "foto":"mariana.jpg",
+      "ubicacion":"chinchina"
+    }
+  },
+  {
+    "model": "appsamuems.Ambulancia",
+    "pk": 3,
+    "fields": {
+      "clase": "A",
+      "marca":"Land Rober",
+      "modeloA":"2016",
+      "placa":"NLO-001",
+      "servicio":"L",
+      "fechaIngreso":"2019-06-01",
+      "foto":"Danna.jpg",
+      "ubicacion":"Chipre"
+    }
+  },
+  {
+    "model": "appsamuems.Paciente",
+    "pk": 123,
+    "fields": {
+      "apellidoPaterno":"Cardona",
+      "apellidoMaterno":"Guerrero",
+      "nombre":"Natalia",
+      "fechaNacimiento":"1990-06-14"
+      "sexo":"F",
+      "apP":"No presenta antecedentes",
+      "apnP":"No presenta antecedentes",
+      "emailP":"natalia@gmail.com",
+      "telefonoP":"3210000000",
+    }
+  },
+  {
+    "model": "appsamuems.Paciente",
+    "pk": 456,
+    "fields": {
+      "apellidoPaterno":"Lopez",
+      "apellidoMaterno":"Reyes",
+      "nombre":"Stefania",
+      "fechaNacimiento":"1991-08-14"
+      "sexo":"F",
+      "apP":"No presenta antecedentes",
+      "apnP":"No presenta antecedentes",
+      "emailP":"stefania@gmail.com",
+      "telefonoP":"3211111111",
+    }
+  },
+  {
+    "model": "appsamuems.Paciente",
+    "pk": 789,
+    "fields": {
+      "apellidoPaterno":"Carmona",
+      "apellidoMaterno":"",
+      "nombre":"Mariana",
+      "fechaNacimiento":"2000-02-28"
+      "sexo":"F",
+      "apP":"No presenta antecedentes",
+      "apnP":"No presenta antecedentes",
+      "emailP":"mariana@gmail.com",
+      "telefonoP":"3000000000",
+    }
+  }
+]

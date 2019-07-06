@@ -1,0 +1,57 @@
+{% extends 'aplicacion/baseListar.html' %}
+{% load crispy_forms_tags %}
+{% block main %}
+    <div class="container">
+        <h1 class="jumbotron-heading"><img style="width:100px; height:100px;" src="https://banner2.kisspng.com/20180906/lzs/kisspng-vector-graphics-logo-clip-art-centre-hospitalier-s-samu-logo-svg-vector-amp-png-transparent-vecto-5b91c3b993d6a4.3548522115362794816056.jpg" </img>
+            Pacientes Registrados</h1>
+    </div>
+    <hr align="center" noshade="noshade" size="10" width="95%" />
+    <div class="container">
+        <div class="tab">
+            {% for paciente in object_list %}
+            <button class="tablinks" onclick="openCity(event, {{paciente.cedula}})"> {{paciente.cedula}} </button>
+            {% endfor %}
+        </div>
+
+        {% for paciente in object_list %}
+        <div id="{{paciente.cedula}}" class="tabcontent">
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label>Apellido paterno</label>
+                    <input type="text" class="form-control" value="{{paciente.apellidoPaterno}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" value="{{paciente.nombre}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Sexo</label>
+                    <input type="text" class="form-control" value="{{paciente.sexo}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Antecedentes personales patológicos</label>
+                    <input type="text" class="form-control" value="{{paciente.apP}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Antecedentes personales no patológicos</label>
+                    <input type="text" class="form-control" value="{{paciente.apnP}}" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{paciente.emailP}}" disabled>
+                </div>
+                <div class="form-group" align="center">
+                    <button type="submit" class="btn btn-success btn-lg">Editar información</button>
+                    <button type="submit" class="btn btn-success btn-lg">Eliminar paciente</button>
+                </div>
+            </form>
+        </div>
+        {% endfor %}
+
+    </div>
+    <hr align="center" noshade="noshade" size="10" width="95%" />
+    <div class="container" align="center">
+        <a href="../crear_paciente" class="btn btn-success btn-lg">Agregar paciente</a>
+    </div>
+{% endblock %}
