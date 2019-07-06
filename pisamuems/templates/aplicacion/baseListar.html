@@ -19,15 +19,15 @@
     <style>
         body {font-family: Arial;}
 
-        /* Style the tab */
-        .tab {
+        /* Style the tab Paciente*/
+        .tabPaciente {
           overflow: hidden;
           border: 1px solid #ccc;
           background-color: #5cb85c;
         }
 
         /* Style the buttons inside the tab */
-        .tab button {
+        .tabPaciente button {
           background-color: inherit;
           float: left;
           border: none;
@@ -39,13 +39,71 @@
         }
 
         /* Change background color of buttons on hover */
-        .tab button:hover {
-          background-color: #ddd;
+        .tabPaciente button:hover {
+          background-color: #4ec24e;
         }
 
         /* Create an active/current tablink class */
-        .tab button.active {
-          background-color: #1be01e;
+        .tabPaciente button.active {
+          background-color: #4ec24e;
+        }
+
+        /* Style the tab Ambulancia*/
+        .tabAmbulancia {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #428bca;
+        }
+
+        /* Style the buttons inside the tab */
+        .tabAmbulancia button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tabAmbulancia button:hover {
+          background-color: #5bc0de;
+        }
+
+        /* Create an active/current tablink class */
+        .tabAmbulancia button.active {
+          background-color: #5bc0de;
+        }
+
+        /* Style the tab Hospital*/
+        .tabHospital {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #d9534f;
+        }
+
+        /* Style the buttons inside the tab */
+        .tabHospital button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tabHospital button:hover {
+          background-color: #e66460;
+        }
+
+        /* Create an active/current tablink class */
+        .tabHospital button.active {
+          background-color: #e66460;
         }
 
         /* Style the tab content */
