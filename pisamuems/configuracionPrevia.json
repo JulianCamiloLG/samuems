@@ -81,45 +81,66 @@
     "model": "appsamuems.Paciente",
     "pk": 123,
     "fields": {
+      "nombre":"Natalia",
       "apellidoPaterno":"Cardona",
       "apellidoMaterno":"Guerrero",
-      "nombre":"Natalia",
       "fechaNacimiento":"1990-06-14",
       "sexo":"F",
+      "rhP": "O+",
       "apP":"No presenta antecedentes",
       "apnP":"No presenta antecedentes",
+      "Alergias": "Ninguna alergia presentada",
       "emailP":"natalia@gmail.com",
-      "telefonoP":321000
+      "telefonoP":3127137963,
+      "direccionP": "Cra 8 #7-79",
+      "acudienteP": "Radamel Falcao",
+      "telefonoA": 3206033796,
+      "correoA": "tigre@hotmail.com",
+      "tnc": "True"
     }
   },
   {
     "model": "appsamuems.Paciente",
     "pk": 456,
     "fields": {
+      "nombre":"Stefania",
       "apellidoPaterno":"Lopez",
       "apellidoMaterno":"Reyes",
-      "nombre":"Stefania",
       "fechaNacimiento":"1991-08-14",
       "sexo":"F",
+      "rhP": "O-",
       "apP":"No presenta antecedentes",
       "apnP":"No presenta antecedentes",
+      "Alergias": "Ninguna alergia presentada",
       "emailP":"stefania@gmail.com",
-      "telefonoP":321111
+      "telefonoP":8774093,
+      "direccionP": "Cra 6 #12-79",
+      "acudienteP": "Lionel Messi",
+      "telefonoA": 8906543,
+      "correoA": "enano@gmail.com",
+      "tnc": "True"
     }
   },
   {
     "model": "appsamuems.Paciente",
     "pk": 789,
     "fields": {
+      "nombre":"Mariana",
       "apellidoPaterno":"Carmona",
       "apellidoMaterno":"",
-      "nombre":"Mariana",
       "fechaNacimiento":"2000-02-28",
       "sexo":"F",
+      "rhP": "AB+",
       "apP":"No presenta antecedentes",
       "apnP":"No presenta antecedentes",
+      "Alergias": "Ninguna alergia presentada",
       "emailP":"mariana@gmail.com",
-      "telefonoP":300000
+      "telefonoP":3137080856,
+      "direccionP": "Cra 5 #12-1",
+      "acudienteP": "Cristiano Ronaldo",
+      "telefonoA": 3155389456,
+      "correoA": "cr7@yahoo.com",
+      "tnc": "True"
     }
   }
 ]
