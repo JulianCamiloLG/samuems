@@ -1,20 +1,34 @@
+from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 
 # Create your models here.
 class Paciente(models.Model):
-    cedula = models.IntegerField(primary_key= True)
+    nombre = models.CharField(max_length=35)
     apellidoPaterno = models.CharField(max_length=35)
     apellidoMaterno = models.CharField(max_length=35)
-    nombre = models.CharField(max_length=35)
+    cedula = models.IntegerField(primary_key=True)
     fechaNacimiento = models.DateField()
     Sexos = (('F', 'Femenino'), ('M', 'Masculino'))
     sexo = models.CharField(max_length=1, choices=Sexos, default='M')
+    # Tipos de sangre para seleccionar uno
+    tipoSangre = (('O-', 'O Negativo'),('O+', 'O Positivo'),('A-', 'A Negativo'),('A+', 'A Positivo'),
+                  ('B-', 'B Negativo'),('B+', 'B Positivo'),('AB-', 'AB Negativo'),('AB+', 'AB Positivo'))
+    rhP = models.CharField(max_length=3, choices=tipoSangre, default="")
     # Antecedentes personales patologicos
     apP = models.CharField(max_length=255)
     # Antecedentes personales patologicos
     apnP = models.CharField(max_length=255)
+    # Alergias del paciente, campo no obligatorio
+    alergias = models.TextField(blank=True)
     emailP = models.EmailField()
-    telefonoP = models.IntegerField()
+    telefonoP = models.BigIntegerField()
+    direccionP = models.CharField(max_length=255, default="")
+    # Datos sobre el acudiente del paciente
+    acudienteP = models.CharField(max_length=255, default="")
+    telefonoA = models.BigIntegerField(default=0)
+    correoA = models.EmailField(blank=True)
+    # Campo para aceptar terminos y condiciones
+    tnc = models.BooleanField(default=False)
 
     def __str__(self):
         return self.nombre
