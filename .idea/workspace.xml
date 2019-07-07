@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562c1f2-8be4-42dd-855e-795b71aafa60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pisamuems/static/scripts/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/static/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/static_files/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/static_files/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseCrear.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseCrear.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,51 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pisamuems/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1420">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8625#8631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,55 +82,6 @@
             <path>
               <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562470840195</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rutas estaticas para las hojas de estilos">
+      <created>1562477697253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562477697253</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -327,9 +229,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22693452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,8 +240,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32991454" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" weight="0.2786325" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" visible="true" weight="0.30598292" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" visible="true" weight="0.2786325" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" weight="0.30598292" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50818455" side_tool="true" weight="0.30605564" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49925596" weight="0.32991454" />
@@ -415,7 +316,8 @@
     <MESSAGE value="Crear y listar paciente" />
     <MESSAGE value="CRUD paciente completo" />
     <MESSAGE value="Campos paciente agregados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Campos paciente agregados" />
+    <MESSAGE value="Rutas estaticas para las hojas de estilos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rutas estaticas para las hojas de estilos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/__init__.py">
@@ -669,6 +571,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-842">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -676,20 +592,6 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
