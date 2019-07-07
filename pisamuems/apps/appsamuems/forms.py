@@ -64,7 +64,7 @@ class pacienteForm(forms.ModelForm):
             "telefonoP": ("Teléfono del paciente"),
             "direccionP": ("Dirección de residencia del paciente"),
             "tnc": ("Aceptar términos y condiciones"),
-            }
+        }
 
 # Formulario para los datos de la ambulancia:
 class ambulanciaForm(forms.ModelForm):

@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562c1f2-8be4-42dd-855e-795b71aafa60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pisamuems/static/scripts/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/static/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/static/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/static_files/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/static_files/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseCrear.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseCrear.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,31 +25,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
+        <entry file="file://$PROJECT_DIR$/pisamuems/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="-1420">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8625#8631#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
@@ -49,29 +40,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-833">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding>
-                <element signature="e#41#77#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -104,29 +95,36 @@
         <option value="$PROJECT_DIR$/aplicativo/aplicativo/urls.py" />
         <option value="$PROJECT_DIR$/aplicativo/samuems/templates/paciente/paciente_list.html" />
         <option value="$PROJECT_DIR$/pisamuems/pisamuems/apps/__init__.py" />
-        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/index.html" />
         <option value="$PROJECT_DIR$/pisamuems/pisamuems/urls.py" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_ambulancia.html" />
         <option value="$PROJECT_DIR$/pisamuems/manage.py" />
-        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py" />
-        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" />
         <option value="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
+        <option value="$PROJECT_DIR$/pisamuems/static_files/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/pisamuems/static/scripts/js.js" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseCrear.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/index.html" />
+        <option value="$PROJECT_DIR$/pisamuems/static/assets/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="349" />
-    <option name="y" value="42" />
-    <option name="width" value="1005" />
-    <option name="height" value="745" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,7 +132,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -242,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562470512592</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Campos paciente agregados">
+      <created>1562470743678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562470743678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Campos paciente agregados">
+      <created>1562470840195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562470840195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -256,8 +327,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3340774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22693452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,8 +339,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32991454" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" visible="true" weight="0.2786325" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" weight="0.30605564" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" weight="0.2786325" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" visible="true" weight="0.30598292" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50818455" side_tool="true" weight="0.30605564" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49925596" weight="0.32991454" />
@@ -346,45 +418,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Campos paciente agregados" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aplicativo/aplicativo/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/tests.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/db.sqlite3" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/apps.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/manage.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/migrations/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/aplicativo/wsgi.py" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/aplicativo/settings.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/conf/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/templates/paciente/paciente_details.html" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/templates/paciente/paciente_confirm_delete.html" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/templates/paciente/paciente_form.html" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/admin.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/views.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/aplicativo/urls.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/urls.py" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/templates/paciente/paciente_list.html" />
-    <entry file="file://$PROJECT_DIR$/aplicativo/samuems/models.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/views/generic/edit.py" />
-    <entry file="file://$PROJECT_DIR$/pisamuems/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/samuems/Lib/site-packages/django/urls/resolvers.py" />
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -429,16 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#41#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2074">
@@ -446,24 +469,6 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8625#8631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -487,53 +492,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="52" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#41#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/media/img/ancla.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/media/img/descarga.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/media/img/slime.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="243">
           <caret line="137" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/img/Captura_de_pantalla_4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/img/descarga.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/img/descarga_TxJvM1P.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/img/1d52691fcc0a2e3e1a4fd21d57662f97.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/images/facultad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/images/facultadBlanco.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/images/logoFacultad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/images/LogoOficial.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/images/rsz_logofacultad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/img/1d52691fcc0a2e3e1a4fd21d57662f97.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/img/Captura_de_pantalla_4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/img/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/img/descarga.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/img/descarga_TxJvM1P.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/assets/images/logoFacultad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/assets/images/LogoOficial.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/assets/images/rsz_logofacultad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/assets/images/facultad.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/assets/images/facultadBlanco.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static_files/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="239">
+          <caret line="493" selection-start-line="493" selection-end-line="493" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html">
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/scripts/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state>
+          <caret column="75" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/img/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="58" column="89" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="339">
           <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="40" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseCrear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_hospital.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_paciente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1420">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8625#8631#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,9 @@
 {% extends 'aplicacion/baseCrear.html' %}
 {% load crispy_forms_tags %}
 {% block main %}
+{% load static %}
     <div class="container" align="center">
-        <h1 class="jumbotron-heading"><img style="width:100px; height:100px;" src="https://banner2.kisspng.com/20180906/lzs/kisspng-vector-graphics-logo-clip-art-centre-hospitalier-s-samu-logo-svg-vector-amp-png-transparent-vecto-5b91c3b993d6a4.3548522115362794816056.jpg" </img>
+        <h1 class="jumbotron-heading"><img style="width:100px; height:100px;" src="{% static 'img/banner.jpg' %}" alt="logo" >
             Registrar Ambulancia</h1>
     </div>
     <hr align="center" noshade="noshade" size="10" width="95%" />
