@@ -7,6 +7,9 @@
     </div>
     <hr align="center" noshade="noshade" size="10" width="95%" />
     <div class="container">
+        {% if form.errors %}
+            <h1>You must agree to the TNC</h1>
+        {% endif %}
         <form action="" method="post">
             <div class="form-group">
                 {% csrf_token %}
