@@ -4,8 +4,10 @@ from .views import *
 from django.conf import settings
 from django.conf.urls.static import static
 
+app_name = 'aplicacion'
+
 urlpatterns = [
-    path('',home,name = "index"),
+    path('',home, name = "index"),
     #path('crear_paciente/',crearPaciente, name = "crear_paciente"),
     #path('listar_paciente/', listarPaciente, name="listar_paciente"),
     #path('editar_paciente/<int:cedula>/', editarPaciente, name="editar_paciente"),
@@ -24,7 +26,7 @@ urlpatterns = [
 
     # Hospitales
     path('crear_hospital/', createHospital.as_view(), name="crear_hospital"),
-    path('listar_hospital/', listHospital.as_view(), name="listar_hotspital"),
+    path('listar_hospital/', listHospital.as_view(), name="listar_hospital"),
     path('editar_hospital/<int:pk>/', updateHospital.as_view(), name="editar_hospital"),
     path('eliminar_hospital/<int:pk>/', deleteHospital.as_view(), name="eliminar_hospital"),
 
