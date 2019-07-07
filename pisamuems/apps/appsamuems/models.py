@@ -29,7 +29,7 @@ class Ambulancia(models.Model):
     servicios = (('L', 'Libre'), ('O', 'Ocupado'))
     servicio = models.CharField(max_length=1, choices=servicios, default='L')
     fechaIngreso = models.DateField(auto_now_add=True)
-    foto=models.ImageField()
+    foto=models.ImageField(upload_to='img/')
     ubicacion=models.CharField(max_length=255)
 
     def __str__(self):

@@ -45,7 +45,7 @@
       "placa":"TXJ-321",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
-      "foto":"julian.jpg",
+      "foto":"img/descarga.png",
       "ubicacion":"fatima"
     }
   },
@@ -59,7 +59,7 @@
       "placa":"JJJ-000",
       "servicio":"O",
       "fechaIngreso":"2000-12-31",
-      "foto":"mariana.jpg",
+      "foto":"img/descarga.png",
       "ubicacion":"chinchina"
     }
   },
@@ -73,7 +73,7 @@
       "placa":"NLO-001",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
-      "foto":"Danna.jpg",
+      "foto":"img/descarga.png",
       "ubicacion":"Chipre"
     }
   },

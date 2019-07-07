@@ -23,4 +23,3 @@ urlpatterns = [
     path('aplicacion/',include('apps.appsamuems.urls'))
 ]
 
-

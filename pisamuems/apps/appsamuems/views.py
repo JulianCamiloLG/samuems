@@ -114,6 +114,7 @@ class createAmbulancia(CreateView):
     model = Ambulancia
     form_class = ambulanciaForm
     template_name = 'aplicacion/crear_ambulancia.html'
+    File_to_upload = models.FileField(upload_to='/static/img/')
     success_url = reverse_lazy('index')
 
 class listAmbulancia(ListView):
