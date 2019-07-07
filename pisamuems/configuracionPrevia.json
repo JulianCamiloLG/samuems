@@ -45,7 +45,7 @@
       "placa":"TXJ-321",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
-      "foto":"julian.jpg",
+      "foto":"img/descarga.png",
       "ubicacion":"fatima"
     }
   },
@@ -59,7 +59,7 @@
       "placa":"JJJ-000",
       "servicio":"O",
       "fechaIngreso":"2000-12-31",
-      "foto":"mariana.jpg",
+      "foto":"img/descarga.png",
       "ubicacion":"chinchina"
     }
   },
@@ -73,53 +73,8 @@
       "placa":"NLO-001",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
-      "foto":"Danna.jpg",
+      "foto":"img/descarga.png",
       "ubicacion":"Chipre"
-    }
-  },
-  {
-    "model": "appsamuems.Paciente",
-    "pk": 123,
-    "fields": {
-      "apellidoPaterno":"Cardona",
-      "apellidoMaterno":"Guerrero",
-      "nombre":"Natalia",
-      "fechaNacimiento":"1990-06-14",
-      "sexo":"F",
-      "apP":"No presenta antecedentes",
-      "apnP":"No presenta antecedentes",
-      "emailP":"natalia@gmail.com",
-      "telefonoP":321000
-    }
-  },
-  {
-    "model": "appsamuems.Paciente",
-    "pk": 456,
-    "fields": {
-      "apellidoPaterno":"Lopez",
-      "apellidoMaterno":"Reyes",
-      "nombre":"Stefania",
-      "fechaNacimiento":"1991-08-14",
-      "sexo":"F",
-      "apP":"No presenta antecedentes",
-      "apnP":"No presenta antecedentes",
-      "emailP":"stefania@gmail.com",
-      "telefonoP":321111
-    }
-  },
-  {
-    "model": "appsamuems.Paciente",
-    "pk": 789,
-    "fields": {
-      "apellidoPaterno":"Carmona",
-      "apellidoMaterno":"",
-      "nombre":"Mariana",
-      "fechaNacimiento":"2000-02-28",
-      "sexo":"F",
-      "apP":"No presenta antecedentes",
-      "apnP":"No presenta antecedentes",
-      "emailP":"mariana@gmail.com",
-      "telefonoP":300000
     }
   }
 ]

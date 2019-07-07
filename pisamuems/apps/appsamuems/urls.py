@@ -1,6 +1,8 @@
 from django.conf.urls import url
 from django.urls import path
 from .views import *
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('',home,name = "index"),
@@ -26,4 +28,4 @@ urlpatterns = [
     path('editar_hospital/<int:pk>/', updateHospital.as_view(), name="editar_hospital"),
     path('eliminar_hospital/<int:pk>/', deleteHospital.as_view(), name="eliminar_hospital"),
 
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
