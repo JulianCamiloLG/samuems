@@ -75,7 +75,7 @@ class deletePaciente(DeleteView):
 # Crear ambulancia
 def crearAmbulancia(request):
     if request.method == 'POST':
-        form = ambulanciaForm(request.POST)
+        form = ambulanciaForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             return redirect('index')
