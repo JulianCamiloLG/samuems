@@ -75,7 +75,8 @@ class deletePaciente(DeleteView):
 # Crear ambulancia
 def crearAmbulancia(request):
     if request.method == 'POST':
-        form = ambulanciaForm(request.POST)
+        form = ambulanciaForm(request.POST, request.FILES)
+        print(request.FILES)
         if form.is_valid():
             form.save()
             return redirect('index')
@@ -114,7 +115,6 @@ class createAmbulancia(CreateView):
     model = Ambulancia
     form_class = ambulanciaForm
     template_name = 'aplicacion/crear_ambulancia.html'
-    File_to_upload = models.FileField(upload_to='/static/img/')
     success_url = reverse_lazy('aplicacion:index')
 
 class listAmbulancia(ListView):

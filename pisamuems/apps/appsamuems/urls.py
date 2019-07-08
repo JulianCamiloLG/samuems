@@ -19,7 +19,8 @@ urlpatterns = [
     path('eliminar_paciente/<int:pk>/', deletePaciente.as_view(), name="eliminar_paciente"),
 
     #Ambulancias
-    path('crear_ambulancia/', createAmbulancia.as_view(), name="crear_ambulancia"),
+    #path('crear_ambulancia/', createAmbulancia.as_view(), name="crear_ambulancia"),
+    path('crear_ambulancia/', crearAmbulancia, name="crear_ambulancia"),
     path('listar_ambulancia/', listAmbulancia.as_view(), name="listar_ambulancia"),
     path('editar_ambulancia/<int:pk>/', updateAmbulancia.as_view(), name="editar_ambulancia"),
     path('eliminar_ambulancia/<int:pk>/', deleteAmbulancia.as_view(), name="eliminar_ambulancia"),
