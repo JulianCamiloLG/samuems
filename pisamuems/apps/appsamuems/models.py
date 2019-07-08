@@ -37,6 +37,9 @@ class Ambulancia(models.Model):
     numeroMovil=models.IntegerField(primary_key=True)
     clases = (('A', 'Avanzada'), ('B', 'Basica'))
     clase=models.CharField(max_length=1, choices=clases, default='B')
+    responsable = models.CharField(max_length=35, default="")
+    cedulaR = models.IntegerField(default=0)
+    telefonoR = models.BigIntegerField(default=0)
     marca=models.CharField(max_length=35)
     modeloA=models.CharField(max_length=35)
     placa=models.CharField(max_length=35)
@@ -49,15 +52,29 @@ class Ambulancia(models.Model):
     def __str__(self):
         return self.placa
 
+class NivelHospital(models.Model):
+    nivel=models.IntegerField(primary_key=True)
+    tipoAtencion=models.CharField(max_length=255)
+    tipoServicio=models.CharField(max_length=255)
+
 class Hospital(models.Model):
     nombre=models.CharField(max_length=35)
     direccion=models.CharField(max_length=35)
-    telefono=models.IntegerField()
-    niveles=(('1','Nivel I'),('2','Nivel II'),('3','Nivel III'))
-    nivel = models.CharField(max_length=10, choices=niveles, default='1')
+    latitud=models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
+    longitud=models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
+    telefono=models.BigIntegerField()
+    #niveles=(('1','Nivel I'),('2','Nivel II'),('3','Nivel III'))
+    #nivel = models.CharField(max_length=10, choices=niveles, default='1')
+    nivel = models.ForeignKey(NivelHospital, on_delete=models.CASCADE)
     especialidades = (('T', 'Traumatología'), ('U', 'Urología'), ('O', 'Otorrinolaringología'), ('OF', 'Oftalmología'), ('GOT', 'Ginecología y obstetricia o tocología'), ('DQV', 'Dermatología médico-quirúrgica y venereología'))
     especialidad = models.CharField(max_length=35, choices=especialidades, default='T')
     numeroCamas = models.IntegerField()
 
     def __str__(self):
         return self.nombre
+
+
+
+
+
+

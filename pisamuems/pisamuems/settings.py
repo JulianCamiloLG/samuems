@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'pisamuems.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ftawmmez',
-        'USER': 'ftawmmez',
-        'PASSWORD': 'UsnG7kMflhkSPr3dDTBTGP454SxutVDu',
+        'NAME': 'bumknmke',
+        'USER': 'bumknmke',
+        'PASSWORD': '5cDgZy7EWp9WBqWcZ3H6qlxI84R71CV2',
         'HOST': 'tuffi.db.elephantsql.com',
         'PORT': '5432',
     }
