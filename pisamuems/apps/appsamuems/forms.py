@@ -78,22 +78,42 @@ class ambulanciaForm(forms.ModelForm):
         fields=(
             'numeroMovil',
             'clase',
+            'responsable',
+            'cedulaR',
+            'telefonoR',
             'marca',
             'modeloA',
             'placa',
             'servicio',
             'foto',
-            'ubicacion'
+            'ubicacion',
+            'latitud',
+            'longitud',
         )
         labels ={
             'numeroMovil':("Móvil"),
             'clase':("Clase"),
+            'responsable': ("Nombre del responsable de la ambulancia"),
+            'cedulaR': ("Número de cédula del responsable"),
+            'telefonoR': ("Teléfono del responsable"),
             'marca':("Marca"),
             'modeloA':("Modelo"),
             'placa':("Placa"),
             'servicio':("Servicio"),
             'foto':("Foto"),
-            'ubicacion':("Última ubicación registrada")
+            'ubicacion':("Última ubicación registrada"),
+            'latitud': ("Latitud de la ubicación"),
+            'longitud': ("Longitud de la ubicación"),
+        }
+        help_text={
+            'numeroMovil': ("Número de móvil de la ambulancia"),
+            'clase': ("Clase de la ambulancia"),
+            'marca': ("Marca de la ambulancia"),
+            'modeloA': ("Modelo de la ambulancia"),
+            'placa': ("Placa de la ambulancia"),
+            'servicio': ("Servicio"),
+            'foto': ("Foto de la ambulancia"),
+            'ubicacion': ("Última ubicación registrada de la ambulancia"),
         }
 
 # Formulario para los datos del Hospital:
@@ -103,16 +123,26 @@ class HospitalForm(forms.ModelForm):
         fields = {
             'nombre',
             'direccion',
+            'latitud',
+            'longitud',
             'telefono',
             'nivel',
             'especialidad',
             'numeroCamas'
         }
         labels = {
-                'nombre':("Nombre"),
-                'direccion':("Dirección"),
-                'telefono':("Teléfono"),
-                'nivel':("Nivel"),
-                'especialidad':("Especialidad"),
-                'numeroCamas':("Número de Camas")
+            'nombre':("Nombre"),
+            'direccion':("Dirección"),
+            'latitud': ("Latitud de la ubicación del hospital"),
+            'longitud': ("Longitud de la ubicación del hospital"),
+            'telefono':("Teléfono"),
+            'nivel':("Nivel"),
+            'especialidad':("Especialidad"),
+            'numeroCamas':("Número de Camas"),
+        }
+        help_text={
+            'nombre': ("Nombre del hospital"),
+            'direccion': ("Dirección del hospital"),
+            'telefono': ("Número de teléfono del hospital"),
+            'nivel': ("Número de nivel del hospital (1,2,3)"),
         }

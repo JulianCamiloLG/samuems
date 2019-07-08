@@ -48,6 +48,8 @@ class Ambulancia(models.Model):
     fechaIngreso = models.DateField(auto_now_add=True)
     foto=models.ImageField(upload_to='img/')
     ubicacion=models.CharField(max_length=255)
+    latitud = models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
+    longitud = models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
 
     def __str__(self):
         return self.placa
@@ -63,9 +65,9 @@ class Hospital(models.Model):
     latitud=models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
     longitud=models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
     telefono=models.BigIntegerField()
-    #niveles=(('1','Nivel I'),('2','Nivel II'),('3','Nivel III'))
+    niveles=(('1','Nivel I'),('2','Nivel II'),('3','Nivel III'))
     #nivel = models.CharField(max_length=10, choices=niveles, default='1')
-    nivel = models.ForeignKey(NivelHospital, on_delete=models.CASCADE)
+    nivel = models.ForeignKey(NivelHospital, choices=niveles, on_delete=models.CASCADE)
     especialidades = (('T', 'Traumatología'), ('U', 'Urología'), ('O', 'Otorrinolaringología'), ('OF', 'Oftalmología'), ('GOT', 'Ginecología y obstetricia o tocología'), ('DQV', 'Dermatología médico-quirúrgica y venereología'))
     especialidad = models.CharField(max_length=35, choices=especialidades, default='T')
     numeroCamas = models.IntegerField()

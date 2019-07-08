@@ -4,16 +4,7 @@
     <list default="true" id="5562c1f2-8be4-42dd-855e-795b71aafa60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0002_auto_20190616_2352.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190627_1721.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0004_hospital.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0005_auto_20190704_1546.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0006_auto_20190706_1858.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0007_configInicial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,47 +17,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+            <state relative-caret-position="85">
+              <caret line="51" column="94" selection-start-line="51" selection-start-column="94" selection-end-line="51" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#633#665#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/configuracionPrevia.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+            <state relative-caret-position="221">
+              <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
               <folding>
                 <element signature="e#41#77#0" expanded="true" />
               </folding>
@@ -127,15 +88,16 @@
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_ambulancia.html" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py" />
-        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
         <option value="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" />
-        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" />
         <option value="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="536" />
+    <option name="y" value="-19" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -162,13 +124,22 @@
               <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
               <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
               <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="appsamuems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyectoIntegrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyectoIntegrador" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="appsamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562543655359</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modelos actualizados">
+      <created>1562601732115</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562601732115</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -344,7 +322,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05877976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16071428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -354,8 +332,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32991454" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" visible="true" weight="0.2786325" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" weight="0.1982906" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" weight="0.2786325" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" visible="true" weight="0.1982906" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50818455" side_tool="true" weight="0.30605564" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49925596" weight="0.32991454" />
@@ -433,7 +411,8 @@
     <MESSAGE value="Rutas estaticas para las hojas de estilos" />
     <MESSAGE value="Configuracion previa - Pacientes" />
     <MESSAGE value="Paciente terminado&#10;Ambulancia y hospitales pendientes de ajustes en los modelos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paciente terminado&#10;Ambulancia y hospitales pendientes de ajustes en los modelos" />
+    <MESSAGE value="Modelos actualizados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modelos actualizados" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pisamuems/static/assets/images/LogoOficial.jpg">
@@ -678,23 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-          <folding>
-            <element signature="e#41#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/configuracionPrevia.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459" />
@@ -744,17 +706,34 @@
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
+    <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        <state relative-caret-position="1179">
+          <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
+    <entry file="file://$PROJECT_DIR$/pisamuems/configuracionPrevia.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="85" column="53" lean-forward="true" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+        <state relative-caret-position="2414">
+          <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="51" column="94" selection-start-line="51" selection-start-column="94" selection-end-line="51" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+          <folding>
+            <element signature="e#41#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
