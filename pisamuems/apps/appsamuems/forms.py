@@ -5,31 +5,65 @@ from .models import Paciente, Ambulancia, Hospital
 
 # Formulario para los datos del paciente
 class pacienteForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        super(pacienteForm, self).__init__(*args, **kwargs)
+        self.fields['tnc'].required = True
+
     class Meta:
         model = Paciente
         fields = (
-            'cedula',
+            'nombre',
             'apellidoPaterno',
             'apellidoMaterno',
-            'nombre',
+            'cedula',
             'fechaNacimiento',
             'sexo',
+            'rhP',
             'apP',
             'apnP',
+            'alergias',
             'emailP',
             'telefonoP',
+            'direccionP',
+            'acudienteP',
+            'telefonoA',
+            'correoA',
+            'tnc',
         )
         labels = {
-            "cedula": ("Cédula de ciudadanía"),
+            "nombre": ("Nombre(s)"),
             "apellidoPaterno": ("Apellido paterno"),
             "apellidoMaterno": ("Apellido materno"),
-            "nombre": ("Nombre(s)"),
+            "cedula": ("Cédula de ciudadanía"),
             "fechaNacimiento": ("Fecha de nacimiento"),
             "sexo": ("Sexo"),
+            "rhP": ("Grupo sanguineo (Rh)"),
             "apP": ("Antecedentes personales patológicos"),
             "apnP": ("Antecedentes personales no patológicos"),
+            "Alergias": ("Antecedentes de alergias"),
             "emailP": ("Direccion e-mail"),
             "telefonoP": ("Teléfono"),
+            "direccionP": ("Dirección de residencia"),
+            "acudienteP": ("Nombre(s) y apellidos del acudiente del paciente"),
+            "telefonoA": ("Teléfono del acudiente"),
+            "correoA": ("Dirección e-mail del acudiente"),
+            "tnc": ("Aceptar términos y condiciones"),
+        }
+        help_texts = {
+            "nombre": ("Nombre(s) del paciente"),
+            "apellidoPaterno": ("Apellido paterno del paciente"),
+            "apellidoMaterno": ("Apellido materno del paciente"),
+            "cedula": ("Cédula de ciudadanía del paciente"),
+            "fechaNacimiento": ("Fecha de nacimiento del paciente"),
+            "sexo": ("Sexo del paciente"),
+            "rhP": ("Grupo sanguineo (Rh) del paciente"),
+            "apP": ("Antecedentes personales patológicos del paciente"),
+            "apnP": ("Antecedentes personales no patológicos del paciente"),
+            "Alergias": ("Antecedentes de alergias sufridas por el paciente"),
+            "emailP": ("Direccion e-mail del paciente"),
+            "telefonoP": ("Teléfono del paciente"),
+            "direccionP": ("Dirección de residencia del paciente"),
+            "tnc": ("Aceptar términos y condiciones"),
         }
 
 # Formulario para los datos de la ambulancia:

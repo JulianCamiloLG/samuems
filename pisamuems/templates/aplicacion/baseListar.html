@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {% load static%}
-    <link rel="stylesheet" type="text/css" href="{% static '../assets/css/style.css' %}">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
     <!-- Cargar las librerias de estilos instaladas previamente -->
     {# Cargamos la librería #}
     {% load bootstrap4 %}
@@ -15,116 +15,6 @@
     {% bootstrap_css %}
 
     <title>SAMU - EMS</title>
-
-    <style>
-        body {font-family: Arial;}
-
-        /* Style the tab Paciente*/
-        .tabPaciente {
-          overflow: hidden;
-          border: 1px solid #ccc;
-          background-color: #5cb85c;
-        }
-
-        /* Style the buttons inside the tab */
-        .tabPaciente button {
-          background-color: inherit;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 16px;
-          transition: 0.3s;
-          font-size: 17px;
-        }
-
-        /* Change background color of buttons on hover */
-        .tabPaciente button:hover {
-          background-color: #4ec24e;
-        }
-
-        /* Create an active/current tablink class */
-        .tabPaciente button.active {
-          background-color: #4ec24e;
-        }
-
-        /* Style the tab Ambulancia*/
-        .tabAmbulancia {
-          overflow: hidden;
-          border: 1px solid #ccc;
-          background-color: #428bca;
-        }
-
-        /* Style the buttons inside the tab */
-        .tabAmbulancia button {
-          background-color: inherit;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 16px;
-          transition: 0.3s;
-          font-size: 17px;
-        }
-
-        /* Change background color of buttons on hover */
-        .tabAmbulancia button:hover {
-          background-color: #5bc0de;
-        }
-
-        /* Create an active/current tablink class */
-        .tabAmbulancia button.active {
-          background-color: #5bc0de;
-        }
-
-        /* Style the tab Hospital*/
-        .tabHospital {
-          overflow: hidden;
-          border: 1px solid #ccc;
-          background-color: #d9534f;
-        }
-
-        /* Style the buttons inside the tab */
-        .tabHospital button {
-          background-color: inherit;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 16px;
-          transition: 0.3s;
-          font-size: 17px;
-        }
-
-        /* Change background color of buttons on hover */
-        .tabHospital button:hover {
-          background-color: #e66460;
-        }
-
-        /* Create an active/current tablink class */
-        .tabHospital button.active {
-          background-color: #e66460;
-        }
-
-        /* Style the tab content */
-        .tabcontent {
-          display: none;
-          padding: 6px 12px;
-          -webkit-animation: fadeEffect 1s;
-          animation: fadeEffect 1s;
-        }
-
-        /* Fade in tabs */
-        @-webkit-keyframes fadeEffect {
-          from {opacity: 0;}
-          to {opacity: 1;}
-        }
-
-        @keyframes fadeEffect {
-          from {opacity: 0;}
-          to {opacity: 1;}
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -166,21 +56,8 @@
 
     {# JS y jQuery Bootstrap #}
     {% bootstrap_javascript jquery='full' %}
-    <script>
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
+    {% load static %}
+    <script src="{% static 'scripts/js.js' %}"></script>
     <br><br>
     <footer class="text-muted">
         <div class="container">

@@ -55,7 +55,7 @@ class createPaciente(CreateView):
     model = Paciente
     form_class = pacienteForm
     template_name = 'aplicacion/crear_paciente.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 class listPaciente(ListView):
     model = Paciente
@@ -65,12 +65,12 @@ class updatePaciente(UpdateView):
     model = Paciente
     form_class = pacienteForm
     template_name = 'aplicacion/crear_paciente.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 class deletePaciente(DeleteView):
     model = Paciente
     template_name = 'aplicacion/eliminar_paciente.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 # Crear ambulancia
 def crearAmbulancia(request):
@@ -115,7 +115,7 @@ class createAmbulancia(CreateView):
     form_class = ambulanciaForm
     template_name = 'aplicacion/crear_ambulancia.html'
     File_to_upload = models.FileField(upload_to='/static/img/')
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 class listAmbulancia(ListView):
     model = Ambulancia
@@ -125,12 +125,12 @@ class updateAmbulancia(UpdateView):
     model = Ambulancia
     form_class = ambulanciaForm
     template_name = 'aplicacion/crear_ambulancia.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 class deleteAmbulancia(DeleteView):
     model = Ambulancia
     template_name = 'aplicacion/eliminar_ambulancia.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 # Crear Hospital
 def crearHospital(request):
@@ -174,7 +174,7 @@ class createHospital(CreateView):
     model = Hospital
     form_class = HospitalForm
     template_name = 'aplicacion/crear_hospital.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 class listHospital(ListView):
     model = Hospital
@@ -184,10 +184,10 @@ class updateHospital(UpdateView):
     model = Hospital
     form_class = HospitalForm
     template_name = 'aplicacion/crear_hospital.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
 class deleteHospital(DeleteView):
     model = Hospital
     template_name = 'aplicacion/eliminar_hospital.html'
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('aplicacion:index')
 
