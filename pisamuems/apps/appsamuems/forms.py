@@ -75,7 +75,7 @@ class pacienteForm(forms.ModelForm):
 class ambulanciaForm(forms.ModelForm):
     class Meta:
         model = Ambulancia
-        fields=(
+        fields = (
             'numeroMovil',
             'clase',
             'responsable',
@@ -90,22 +90,22 @@ class ambulanciaForm(forms.ModelForm):
             'latitud',
             'longitud',
         )
-        labels ={
-            'numeroMovil':("Móvil"),
+        labels = {
+            'numeroMovil': ("Móvil"),
             'clase':("Clase"),
             'responsable': ("Nombre del responsable de la ambulancia"),
             'cedulaR': ("Número de cédula del responsable"),
             'telefonoR': ("Teléfono del responsable"),
-            'marca':("Marca"),
-            'modeloA':("Modelo"),
-            'placa':("Placa"),
-            'servicio':("Servicio"),
-            'foto':("Foto"),
-            'ubicacion':("Última ubicación registrada"),
+            'marca': ("Marca"),
+            'modeloA': ("Modelo"),
+            'placa': ("Placa"),
+            'servicio': ("Servicio"),
+            'foto': ("Foto"),
+            'ubicacion': ("Última ubicación registrada"),
             'latitud': ("Latitud de la ubicación"),
             'longitud': ("Longitud de la ubicación"),
         }
-        help_text={
+        help_texts = {
             'numeroMovil': ("Número de móvil de la ambulancia"),
             'clase': ("Clase de la ambulancia"),
             'marca': ("Marca de la ambulancia"),
@@ -120,7 +120,7 @@ class ambulanciaForm(forms.ModelForm):
 class HospitalForm(forms.ModelForm):
     class Meta:
         model = Hospital
-        fields = {
+        fields = (
             'nombre',
             'direccion',
             'latitud',
@@ -129,7 +129,7 @@ class HospitalForm(forms.ModelForm):
             'nivel',
             'especialidad',
             'numeroCamas'
-        }
+        )
         labels = {
             'nombre':("Nombre"),
             'direccion':("Dirección"),
@@ -140,7 +140,7 @@ class HospitalForm(forms.ModelForm):
             'especialidad':("Especialidad"),
             'numeroCamas':("Número de Camas"),
         }
-        help_text={
+        help_texts = {
             'nombre': ("Nombre del hospital"),
             'direccion': ("Dirección del hospital"),
             'telefono': ("Número de teléfono del hospital"),

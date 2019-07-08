@@ -1,5 +1,6 @@
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
+from djchoices import ChoiceItem, DjangoChoices
 
 # Create your models here.
 class Paciente(models.Model):
@@ -59,15 +60,18 @@ class NivelHospital(models.Model):
     tipoAtencion=models.CharField(max_length=255)
     tipoServicio=models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.tipoAtencion
+
 class Hospital(models.Model):
     nombre=models.CharField(max_length=35)
     direccion=models.CharField(max_length=35)
     latitud=models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
     longitud=models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
     telefono=models.BigIntegerField()
-    niveles=(('1','Nivel I'),('2','Nivel II'),('3','Nivel III'))
+    #niveles=[(1,'Nivel I'),(2,'Nivel II'),(3,'Nivel III')]
     #nivel = models.CharField(max_length=10, choices=niveles, default='1')
-    nivel = models.ForeignKey(NivelHospital, choices=niveles, on_delete=models.CASCADE)
+    nivel = models.ForeignKey(NivelHospital, on_delete=models.CASCADE)
     especialidades = (('T', 'Traumatología'), ('U', 'Urología'), ('O', 'Otorrinolaringología'), ('OF', 'Oftalmología'), ('GOT', 'Ginecología y obstetricia o tocología'), ('DQV', 'Dermatología médico-quirúrgica y venereología'))
     especialidad = models.CharField(max_length=35, choices=especialidades, default='T')
     numeroCamas = models.IntegerField()

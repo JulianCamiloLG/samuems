@@ -5,3 +5,4 @@ from .models import *
 admin.site.register(Paciente)
 admin.site.register(Ambulancia)
 admin.site.register(Hospital)
+admin.site.register(NivelHospital)
