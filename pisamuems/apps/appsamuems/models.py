@@ -48,8 +48,8 @@ class Ambulancia(models.Model):
     fechaIngreso = models.DateField(auto_now_add=True)
     foto=models.ImageField(upload_to='img/')
     ubicacion=models.CharField(max_length=255)
-    latitud = models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
-    longitud = models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
+    latitud = models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
+    longitud = models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
 
     def __str__(self):
         return self.placa
@@ -62,8 +62,8 @@ class NivelHospital(models.Model):
 class Hospital(models.Model):
     nombre=models.CharField(max_length=35)
     direccion=models.CharField(max_length=35)
-    latitud=models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
-    longitud=models.DecimalField(max_digits=10, decimal_places=10, blank=False, default=0.0)
+    latitud=models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
+    longitud=models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
     telefono=models.BigIntegerField()
     niveles=(('1','Nivel I'),('2','Nivel II'),('3','Nivel III'))
     #nivel = models.CharField(max_length=10, choices=niveles, default='1')
