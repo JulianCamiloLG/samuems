@@ -1,10 +1,39 @@
 [
   {
+    "model": "appsamuems.NivelHospital",
+    "pk": 1,
+    "fields": 
+    {
+      "tipoAtencion": "Atencion prioritaria",
+      "tipoServicio": "Urgencias"
+    }
+  },
+  {
+    "model": "appsamuems.NivelHospital",
+    "pk": 2,
+    "fields": 
+    {
+      "tipoAtencion": "Atencion Media",
+      "tipoServicio": "Hospitalizacion"
+    }
+  },
+  {
+    "model": "appsamuems.NivelHospital",
+    "pk": 3,
+    "fields": 
+    {
+      "tipoAtencion": "Atencion Especializada",
+      "tipoServicio": "Cirugia"
+    }
+  },
+  {
     "model": "appsamuems.Hospital",
     "pk": 1,
     "fields": {
       "nombre": "Hospital san juan de Dios",
       "direccion": "Carrera 32 # 72-02",
+      "latitud":5.050797,
+      "longitud": -75.492716,
       "telefono":8809794,
       "nivel":"1",
       "especialidad":"U",
@@ -17,6 +46,8 @@
     "fields": {
       "nombre": "Hospital Departamental de Caldas",
       "direccion": "Carrera 25 # 49 - 100",
+      "latitud":5.050797,
+      "longitud": -75.492716,
       "telefono":8901054,
       "nivel":"3",
       "especialidad":"T",
@@ -29,6 +60,8 @@
     "fields": {
       "nombre": "Clinica de la Presentacion",
       "direccion": "Carrera 23 # 46 - 02",
+      "latitud":5.050797,
+      "longitud": -75.492716,
       "telefono":8901054,
       "nivel":"2",
       "especialidad":"T",
@@ -40,13 +73,18 @@
     "pk": 1,
     "fields": {
       "clase": "A",
+      "responsable":"Pablo Aguirre",
+      "cedulaR":13047658,
+      "telefonoR":3156897100,
       "marca":"Toyota",
       "modeloA":2020,
       "placa":"TXJ-321",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
       "foto":"img/descarga.png",
-      "ubicacion":"fatima"
+      "ubicacion":"fatima",
+      "latitud":5.050797,
+      "longitud": -75.492716
     }
   },
   {
@@ -54,13 +92,18 @@
     "pk": 2,
     "fields": {
       "clase": "B",
+      "responsable":"Miguel Moncada",
+      "cedulaR":1085909835,
+      "telefonoR":3216791145,
       "marca":"Mercedes Benz",
       "modeloA":1947,
       "placa":"JJJ-000",
       "servicio":"O",
       "fechaIngreso":"2000-12-31",
       "foto":"img/descarga.png",
-      "ubicacion":"chinchina"
+      "ubicacion":"chinchina",
+      "latitud":5.050797,
+      "longitud": -75.492716
     }
   },
   {
@@ -68,13 +111,18 @@
     "pk": 3,
     "fields": {
       "clase": "A",
+      "responsable":"Mariana Correa",
+      "cedulaR":1053897461,
+      "telefonoR":3002587913,      
       "marca":"Land Rober",
       "modeloA":2016,
       "placa":"NLO-001",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
       "foto":"img/descarga.png",
-      "ubicacion":"Chipre"
+      "ubicacion":"Chipre",
+      "latitud":5.050797,
+      "longitud": -75.492716
     }
   },
   {
