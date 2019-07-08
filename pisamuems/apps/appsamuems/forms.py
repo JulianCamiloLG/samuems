@@ -65,6 +65,11 @@ class pacienteForm(forms.ModelForm):
             "direccionP": ("Dirección de residencia del paciente"),
             "tnc": ("Aceptar términos y condiciones"),
         }
+        widgets = {
+            'fechaNacimiento': forms.DateInput(format=('%Y-%m-%d'),
+                                             attrs={'class': 'form-control', 'placeholder': 'Select a date',
+                                                    'type': 'date'}),
+        }
 
 # Formulario para los datos de la ambulancia:
 class ambulanciaForm(forms.ModelForm):
