@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5562c1f2-8be4-42dd-855e-795b71aafa60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pisamuems/media/img/ambulancia1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pisamuems/media/img/ambulancia2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pisamuems/media/img/ambulancia3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/img/slime.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/img/slime_Vl0IorE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/media/img/ancla.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/media/img/descarga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/media/img/slime.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/media/img/soul.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,14 +25,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+            <state relative-caret-position="238">
+              <caret line="22" column="90" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_ambulancia.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -127,7 +137,6 @@
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_paciente.html" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_hospital.html" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/baseEliminar.html" />
-        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_ambulancia.html" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
@@ -138,6 +147,7 @@
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" />
         <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html" />
       </list>
     </option>
   </component>
@@ -407,7 +417,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17931548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,8 +428,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32991454" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49776787" weight="0.2786325" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49181548" visible="true" weight="0.2957265" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50818455" side_tool="true" weight="0.30605564" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49107143" visible="true" weight="0.43371522" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5089286" side_tool="true" weight="0.43371522" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49925596" weight="0.32991454" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -558,16 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/crear_ambulancia.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -667,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_ambulancia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -716,13 +706,6 @@
     <entry file="file://$PROJECT_DIR$/pisamuems/media/img/ambulancia2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -753,10 +736,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_hospital.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+        <state relative-caret-position="238">
+          <caret line="22" column="90" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_paciente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/eliminar_ambulancia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
           </folding>
