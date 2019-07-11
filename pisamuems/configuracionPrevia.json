@@ -81,7 +81,7 @@
       "placa":"TXJ-321",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
-      "foto":"img/descarga.png",
+      "foto":"img/ambulancia1.jpg",
       "ubicacion":"fatima",
       "latitud":5.050797,
       "longitud": -75.492716
@@ -100,7 +100,7 @@
       "placa":"JJJ-000",
       "servicio":"O",
       "fechaIngreso":"2000-12-31",
-      "foto":"img/descarga.png",
+      "foto":"img/ambulancia2.jpg",
       "ubicacion":"chinchina",
       "latitud":5.050797,
       "longitud": -75.492716
@@ -119,7 +119,7 @@
       "placa":"NLO-001",
       "servicio":"L",
       "fechaIngreso":"2019-06-01",
-      "foto":"img/descarga.png",
+      "foto":"img/ambulancia3.png",
       "ubicacion":"Chipre",
       "latitud":5.050797,
       "longitud": -75.492716

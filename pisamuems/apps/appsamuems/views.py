@@ -55,7 +55,7 @@ class createPaciente(CreateView):
     model = Paciente
     form_class = pacienteForm
     template_name = 'aplicacion/crear_paciente.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_paciente')
 
 class listPaciente(ListView):
     model = Paciente
@@ -65,12 +65,12 @@ class updatePaciente(UpdateView):
     model = Paciente
     form_class = pacienteForm
     template_name = 'aplicacion/crear_paciente.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_paciente')
 
 class deletePaciente(DeleteView):
     model = Paciente
     template_name = 'aplicacion/eliminar_paciente.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_paciente')
 
 # Crear ambulancia
 def crearAmbulancia(request):
@@ -105,6 +105,7 @@ def editarAmbulancia(request, movil):
 def eliminarAmbulancia(request, movil):
     ambulancia = Ambulancia.objects.get( numeroMovil = movil)
     if request.method == 'POST':
+        ambulancia.foto.delete(save=True)
         ambulancia.delete()
         return redirect('index')
     return render(request,'aplicacion/eliminar_ambulancia.html',{'ambulancia':ambulancia})
@@ -114,8 +115,7 @@ class createAmbulancia(CreateView):
     model = Ambulancia
     form_class = ambulanciaForm
     template_name = 'aplicacion/crear_ambulancia.html'
-    File_to_upload = models.FileField(upload_to='/static/img/')
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_ambulancia')
 
 class listAmbulancia(ListView):
     model = Ambulancia
@@ -125,12 +125,12 @@ class updateAmbulancia(UpdateView):
     model = Ambulancia
     form_class = ambulanciaForm
     template_name = 'aplicacion/crear_ambulancia.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_ambulancia')
 
 class deleteAmbulancia(DeleteView):
     model = Ambulancia
     template_name = 'aplicacion/eliminar_ambulancia.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_ambulancia')
 
 # Crear Hospital
 def crearHospital(request):
@@ -174,7 +174,7 @@ class createHospital(CreateView):
     model = Hospital
     form_class = HospitalForm
     template_name = 'aplicacion/crear_hospital.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_hospital')
 
 class listHospital(ListView):
     model = Hospital
@@ -184,10 +184,10 @@ class updateHospital(UpdateView):
     model = Hospital
     form_class = HospitalForm
     template_name = 'aplicacion/crear_hospital.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_hospital')
 
 class deleteHospital(DeleteView):
     model = Hospital
     template_name = 'aplicacion/eliminar_hospital.html'
-    success_url = reverse_lazy('aplicacion:index')
+    success_url = reverse_lazy('aplicacion:listar_hospital')
 
