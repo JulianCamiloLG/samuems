@@ -12,6 +12,74 @@
             <div class="form-group">
                 {% csrf_token %}
                 {{ form | crispy }}
+                <!-- Button trigger modal -->
+
+                <a href="" data-toggle="modal" data-target="#exampleModalLong">Consultar Términos y Condiciones</a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Términos y condiciones: Pacientes</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Este documento describe los Términos y Condiciones de uso (en adelante, los “TyC) que se
+                                aplicarán a toda persona que pretenda utilizar la aplicación denominada “SAMU-EMS (en adelante,
+                                la “Aplicación”), de propiedad de Proyecto Integrado GR-6 (en adelante, el “Propietario”).
+                                </p>
+                                <p>Toda persona que pretenda ser admitido como Usuario (tal como se lo define más adelante)
+                                  y/o utilizar la Aplicación en cualquiera de sus funciones, previa y obligatoriamente deberá
+                                  leer, entender, y aceptar todas las condiciones establecidas en estos TyC, caso contrario
+                                  deberá abstenerse de utilizar la presente aplicación.
+                                </p>
+                                <p><strong>DEFINICIONES:</strong>
+                                A los efectos de una mejor interpretación de los presentes TyC, los términos que
+                                comienzan en mayúscula (excepto cuando fueren empleados a fin de iniciar una oración o
+                                como nombre propio), tienen los significados expresamente definidos a continuación, o en
+                                el texto de los TyC:
+                                </p>
+                                <p><strong>Usuario:</strong>
+                                Padre, Madre, Tutor o Representante Legal del paciente menor de edad; que sea capaz y
+                                mayor de edad, con facultades suficientes a tales fines en los términos del Código Civil
+                                y Comercial de la Nación.
+                                </p>
+                                <p><strong>Emergencia:</strong>
+                                Aquella Urgencia que por su complejidad requiera atención inmediata, y/o un mayor grado
+                                de atención, y/o que pudiera involucrar riesgos vitales, y/o dejar secuelas permanentes
+                                en el Paciente.
+                                </p>
+                                <p><strong>1) ACEPTACIÓN DE LOS TÉRMINOS Y CONDICIONES:</strong>
+                                La utilización de la Aplicación le atribuye a quien lo hace, la condición de Usuario de
+                                la misma, lo cual constituye una declaración expresa y fehaciente de haber leído y
+                                aceptado plena e incondicionalmente todas y cada una de los términos de los TyC, siendo
+                                esto requisito indispensable y sin excepción alguna para la utilización referida. Si el
+                                Usuario no  lee, acepta y comprende los TyC aquí detallados, los cuales tienen carácter
+                                obligatorio y vinculante, deberá abstenerse de utilizar la presente Aplicación. El
+                                Propietario se reserva el derecho de modificar los TyC en cualquier momento y sin previo
+                                aviso, razón por la cual es obligación del Usuario revisar periódicamente estos TyC.
+                                </p>
+                                <p><strong>2) CONDICIONES DE USO:</strong>
+                                El Usuario utilizará la Aplicación exclusivamente para su uso personal dentro del
+                                territorio de la República Colombia. Queda expresamente prohibida la reproducción total
+                                o parcial de los contenidos difundidos, protegidos por la ley de propiedad intelectual,
+                                así como el uso comercial del contenido de la aplicación, su venta o distribución a
+                                terceros, o su modificación.
+                                Mediante la aceptación de los presentes TyC el Usuario se compromete a utilizar la
+                                Aplicación correctamente, respetando todo lo establecido en los presentes TyC. El
+                                Usuario declara y reconoce expresamente que será el único responsable por cualquier daño
+                                ocasionado por la utilización indebida de la presente aplicación, manteniendo
+                                completamente indemne al Propietario frente a cualquier reclamo que pueda ocasionarse.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="form-group" align="center">
                 <button type="submit" class="btn btn-success btn-lg">Registrar información</button>

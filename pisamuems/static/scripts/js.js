@@ -12,3 +12,8 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+//Modal sobre los terminos y condicnoes del caso de uso crear paciente
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})

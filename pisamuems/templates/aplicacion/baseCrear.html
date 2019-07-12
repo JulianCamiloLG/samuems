@@ -50,6 +50,10 @@
         <!-- BLOQUE DONDE SE ASIGNAN LOS FORMULARIOS DE CADA CASO DE USO-->
         {% block main %}
         {% endblock %}
+    {# JS y jQuery Bootstrap #}
+    {% bootstrap_javascript jquery='full' %}
+    {% load static %}
+    <script src="{% static 'scripts/js.js' %}"></script>
     <footer class="text-muted">
         <div class="container">
           <p class="float-right">
