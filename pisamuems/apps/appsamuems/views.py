@@ -2,9 +2,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
 
 from .models import *
-from .forms import pacienteForm
-from .forms import ambulanciaForm
-from .forms import HospitalForm
+from .forms import *
 # Crear vistas basadas en clases
 from django.views.generic import CreateView,UpdateView,ListView,DeleteView
 
@@ -191,3 +189,18 @@ class deleteHospital(DeleteView):
     template_name = 'aplicacion/eliminar_hospital.html'
     success_url = reverse_lazy('aplicacion:listar_hospital')
 
+def crearAudio(request):
+    if request.method == 'POST':
+        form = audioForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('index')
+    else:
+        form = ambulanciaForm()
+    return render(request,'aplicacion/crear_audio.html',{'form':form})
+
+class createAudio(CreateView):
+    model = Audio
+    form_class = audioForm
+    template_name = 'aplicacion/crear_audio.html'
+    success_url = reverse_lazy('aplicacion:index')

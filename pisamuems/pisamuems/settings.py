@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'apps.appsamuems',
     'crispy_forms',
     'django_cleanup',
+    'rest_framework',
 ]
 # Libreria para aplicar estilos a los formularios
 CRISPY_TEMPLATE_PACK = 'bootstrap4'

@@ -1,6 +1,6 @@
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
-
+from rest_framework import serializers
 
 # Create your models here.
 class Paciente(models.Model):
@@ -78,6 +78,13 @@ class Hospital(models.Model):
 
     def __str__(self):
         return self.nombre
+
+class Audio(models.Model):
+    name=models.CharField(max_length=35)
+    audio=models.FileField(upload_to='sound/')
+
+    def __str__(self):
+        return self.name
 
 
 

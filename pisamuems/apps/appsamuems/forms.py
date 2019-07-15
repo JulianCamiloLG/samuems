@@ -1,7 +1,7 @@
 # formularios que se van a utilizar html
 from django.urls import reverse_lazy
 from django import forms
-from .models import Paciente, Ambulancia, Hospital
+from .models import *
 
 # Formulario para los datos del paciente
 class pacienteForm(forms.ModelForm):
@@ -145,4 +145,17 @@ class HospitalForm(forms.ModelForm):
             'direccion': ("Dirección del hospital"),
             'telefono': ("Número de teléfono del hospital"),
             'nivel': ("Número de nivel del hospital (1,2,3)"),
+        }
+
+class audioForm(forms.ModelForm):
+    class Meta:
+        model=Audio
+        fields=(
+            'audio',
+        )
+        labels={
+            'audio':("Audio a subir"),
+        }
+        help_texts ={
+            'audio':("Solo mp3 o wav"),
         }
