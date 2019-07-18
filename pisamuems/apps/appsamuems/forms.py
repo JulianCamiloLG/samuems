@@ -147,15 +147,3 @@ class HospitalForm(forms.ModelForm):
             'nivel': ("Número de nivel del hospital (1,2,3)"),
         }
 
-class audioForm(forms.ModelForm):
-    class Meta:
-        model=Audio
-        fields=(
-            'audio',
-        )
-        labels={
-            'audio':("Audio a subir"),
-        }
-        help_texts ={
-            'audio':("Solo mp3 o wav"),
-        }
