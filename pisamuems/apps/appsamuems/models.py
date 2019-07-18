@@ -89,7 +89,7 @@ class Hospital(models.Model):
 
 # Snippet que guarda el archivo en base de datos
 class ArchivoSnippet(models.Model):
-    creadoEn = models.DateTimeField(auto_now_add=True)
+    creadoEn = models.DateTimeField(auto_now_add=True, blank=True)
     nombreArchivo = models.CharField(max_length=100)
     cedulaPaciente = models.IntegerField()
 

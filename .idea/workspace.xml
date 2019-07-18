@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c75ab6-08f6-4a23-aa1f-2c5e6d214e56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190718_1637.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +18,41 @@
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+              <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
               <folding>
                 <element signature="e#15#86#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1377" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190718_1738.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0002_auto_20190716_1535.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-182" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-714" />
           </provider>
         </entry>
       </file>
@@ -45,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="345">
               <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
@@ -95,10 +127,11 @@
       <list>
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" />
-        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190718_1738.py" />
       </list>
     </option>
   </component>
@@ -138,6 +171,14 @@
               <item name="pisamuems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="apps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="appsamuems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="samuems" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\JulianCamilo\Desktop\samuems" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="pisamuems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="apps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="appsamuems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="migrations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -234,16 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
-          <folding>
-            <element signature="e#15#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -256,8 +287,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="345">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190718_1637.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
+          <folding>
+            <element signature="e#15#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/pisamuems/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0002_auto_20190716_1535.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190718_1738.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
