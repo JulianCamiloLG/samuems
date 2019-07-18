@@ -31,5 +31,5 @@ urlpatterns = [
     path('eliminar_hospital/<int:pk>/', deleteHospital.as_view(), name="eliminar_hospital"),
 
     path('archivo/', listar_archivos),
-    path('archivo/')
+    #path('archivo/')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

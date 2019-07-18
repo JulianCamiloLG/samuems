@@ -190,5 +190,32 @@
       "correoA": "cr7@yahoo.com",
       "tnc": "True"
     }
+  },
+  {
+    "model": "appsamuems.ArchivoSnippet",
+    "pk": 1,
+    "fields": {
+      "creadoEn":"1991-08-14",
+      "nombreArchivo":"log1060653874",
+      "cedulaPaciente":"1060653874"
+    }
+  },
+  {
+    "model": "appsamuems.ArchivoSnippet",
+    "pk": 2,
+    "fields": {
+      "creadoEn":"2001-08-14",
+      "nombreArchivo":"log15956200",
+      "cedulaPaciente":"15956200"
+    }
+  },
+  {
+    "model": "appsamuems.ArchivoSnippet",
+    "pk": 3,
+    "fields": {
+      "creadoEn":"2011-08-14",
+      "nombreArchivo":"log25100125",
+      "cedulaPaciente":"25100125"
+    }
   }
 ]
