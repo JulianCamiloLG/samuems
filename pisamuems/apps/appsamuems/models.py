@@ -95,6 +95,7 @@ class ArchivoSnippet(models.Model):
     creadoEn = models.DateTimeField(auto_now_add=True)
     nombreArchivo = models.CharField(max_length=100)
     cedulaPaciente = models.IntegerField()
+    archivo = models.FileField(upload_to='archivos/', blank=True)
 
     def __str__(self):
         return self.nombreArchivo

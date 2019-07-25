@@ -252,7 +252,7 @@ def crearArchivo(cedualPaciente, texto):
     fecha = datetime.now()
     stringFecha = fecha.strftime("%d-%m-%Y_%H-%M-%S_")
     nombreArchivo = stringFecha + cedualPaciente
-    archivoNuevo = open(os.path.join(nombreArchivo), "w+")
+    archivoNuevo = open(os.path.join(path,nombreArchivo), "w+")
     archivoNuevo.write(texto)
     return nombreArchivo
 
@@ -265,4 +265,5 @@ def listar_un_archivo(request,pk):
         except ArchivoSnippet.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
         serializarArchivo = ArchivoSerializador(archivo)
+        serializarArchivo.data['archivo']=open('media/archivos/'+serializarArchivo.data['nombreArchivo'], "r")
         return Response(serializarArchivo.data)

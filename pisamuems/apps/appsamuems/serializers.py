@@ -9,6 +9,7 @@ class ArchivoSerializador(serializers.ModelSerializer):
     creadoEn = serializers.DateTimeField(required=False)
     nombreArchivo = serializers.CharField(required=False)
     cedulaPaciente = serializers.IntegerField()
+    archivo = serializers.FileField(required=False)
 
     class Meta:
         model = ArchivoSnippet
