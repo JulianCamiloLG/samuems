@@ -23,6 +23,8 @@ class Paciente(models.Model):
     apnP = models.CharField(max_length=255)
     # Alergias del paciente, campo no obligatorio
     alergias = models.TextField(blank=True)
+    # Medicamentos actuales que ingiere el paciente
+    medicamentos = models.TextField(blank=True)
     emailP = models.EmailField()
     telefonoP = models.BigIntegerField()
     direccionP = models.CharField(max_length=255, default="")
@@ -32,6 +34,7 @@ class Paciente(models.Model):
     correoA = models.EmailField(blank=True)
     # Campo para aceptar terminos y condiciones
     tnc = models.BooleanField(default=False)
+
 
     def __str__(self):
         return self.nombre

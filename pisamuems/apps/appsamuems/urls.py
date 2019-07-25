@@ -30,6 +30,8 @@ urlpatterns = [
     path('editar_hospital/<int:pk>/', updateHospital.as_view(), name="editar_hospital"),
     path('eliminar_hospital/<int:pk>/', deleteHospital.as_view(), name="eliminar_hospital"),
 
-    path('archivo/', listar_archivos),
-    #path('archivo/')
+    #Webservice Archivos
+    path('listar_archivos/', listar_archivos),
+    path('listar_archivo/<int:pk>', listar_un_archivo),
+    path('crear_archivo/', crear_archivo)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

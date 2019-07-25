@@ -4,7 +4,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from datetime import date
+from datetime import datetime
 
 from .models import *
 from .forms import *
@@ -220,6 +220,7 @@ class deleteHospital(DeleteView):
     success_url = reverse_lazy('aplicacion:listar_hospital')
 
 
+# Vista para obtener todos los archivos
 @api_view(['GET'])
 def listar_archivos(request):
     if request.method == 'GET':
@@ -227,14 +228,27 @@ def listar_archivos(request):
         serializarArchivos = ArchivoSerializador(archivos,many=True)
         return Response(serializarArchivos.data)
 
+# Vista para crear un nuevo archivo
 @api_view(['POST'])
 def crear_archivo(request):
     if request.method == 'POST':
         archivoSerializado = ArchivoSerializador(data=request.data)
         if archivoSerializado.is_valid():
             archivoSerializado.save()
-            fecha = date.today()
-            archivoNuevo = open(fecha + request.POST['cedulaPaciente'], "w+")
-            archivoNuevo.write(request.POST['texto'].texto)
+            fecha = datetime.now()
+            stringFecha = fecha.strftime("%d-%m-%Y_%H:%M:%S_")
+            archivoNuevo = open(stringFecha + request.POST['cedulaPaciente'], "w+")
+            archivoNuevo.write(request.POST['texto'])
             return Response(archivoSerializado.data, status=status.HTTP_201_CREATED)
     return Response(archivoSerializado.errors, status=status.HTTP_400_BAD_REQUEST)
+
+# Vista para listar un unico archivo por id
+@api_view(['GET'])
+def listar_un_archivo(request,pk):
+    if request.method == 'GET':
+        try:
+            archivo = ArchivoSnippet.objects.get(pk=pk)
+        except ArchivoSnippet.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+        serializarArchivo = ArchivoSerializador(archivo)
+        return Response(serializarArchivo.data)
