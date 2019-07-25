@@ -4,6 +4,8 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
+import os
+
 from datetime import datetime
 
 from .models import *
@@ -235,12 +237,24 @@ def crear_archivo(request):
         archivoSerializado = ArchivoSerializador(data=request.data)
         if archivoSerializado.is_valid():
             archivoSerializado.save()
-            fecha = datetime.now()
-            stringFecha = fecha.strftime("%d-%m-%Y_%H:%M:%S_")
-            archivoNuevo = open(stringFecha + request.POST['cedulaPaciente'], "w+")
-            archivoNuevo.write(request.POST['texto'])
+            nombreArchivo = crearArchivo( request.POST['cedulaPaciente'],request.POST['texto'])
+            archivo = ArchivoSnippet.objects.last()
+            archivoSerializado.update(archivo,nombreArchivo)
             return Response(archivoSerializado.data, status=status.HTTP_201_CREATED)
     return Response(archivoSerializado.errors, status=status.HTTP_400_BAD_REQUEST)
+
+#Método interno que crea el archivo
+
+def crearArchivo(cedualPaciente, texto):
+    path = 'media/archivos/'
+    if not os.path.exists(path):
+        os.makedirs(path)
+    fecha = datetime.now()
+    stringFecha = fecha.strftime("%d-%m-%Y_%H-%M-%S_")
+    nombreArchivo = stringFecha + cedualPaciente
+    archivoNuevo = open(os.path.join(nombreArchivo), "w+")
+    archivoNuevo.write(texto)
+    return nombreArchivo
 
 # Vista para listar un unico archivo por id
 @api_view(['GET'])
