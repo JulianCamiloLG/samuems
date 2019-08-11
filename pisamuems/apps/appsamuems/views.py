@@ -17,7 +17,7 @@ from django.views.generic import CreateView,UpdateView,ListView,DeleteView
 
 # Create your views here.
 def home(request):
-    return render(request,'index.html')
+    return render(request, 'index.html')
 
 
 # Crear paciente
@@ -96,7 +96,7 @@ def crearAmbulancia(request):
             return redirect('index')
     else:
         form = ambulanciaForm()
-    return render(request,'aplicacion/crear_ambulancia.html',{'form':form})
+    return render(request, 'aplicacion/crear_ambulancia.html', {'form': form})
 
 
 # Listar Ambulancia

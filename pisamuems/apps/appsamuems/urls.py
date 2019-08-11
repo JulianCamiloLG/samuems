@@ -7,7 +7,7 @@ from django.conf.urls.static import static
 app_name = 'aplicacion'
 
 urlpatterns = [
-    path('',home, name = "index"),
+    path('', home, name="index"),
     #path('crear_paciente/',crearPaciente, name = "crear_paciente"),
     #path('listar_paciente/', listarPaciente, name="listar_paciente"),
     #path('editar_paciente/<int:cedula>/', editarPaciente, name="editar_paciente"),
