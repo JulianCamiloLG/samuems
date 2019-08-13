@@ -237,9 +237,9 @@ def crear_archivo(request):
         archivoSerializado = ArchivoSerializador(data=request.data)
         if archivoSerializado.is_valid():
             archivoSerializado.save()
-            nombreArchivo = crearArchivo( request.POST['cedulaPaciente'],request.POST['texto'])
+            nombreArchivo = crearArchivo(request.POST['cedulaPaciente'], request.POST['texto'])
             archivo = ArchivoSnippet.objects.last()
-            archivoSerializado.update(archivo,nombreArchivo)
+            archivoSerializado.update(archivo, nombreArchivo)
             return Response(archivoSerializado.data, status=status.HTTP_201_CREATED)
     return Response(archivoSerializado.errors, status=status.HTTP_400_BAD_REQUEST)
 
@@ -252,18 +252,41 @@ def crearArchivo(cedualPaciente, texto):
     fecha = datetime.now()
     stringFecha = fecha.strftime("%d-%m-%Y_%H-%M-%S_")
     nombreArchivo = stringFecha + cedualPaciente
-    archivoNuevo = open(os.path.join(path,nombreArchivo), "w+")
+    archivoNuevo = open(os.path.join(path, nombreArchivo), "w+")
     archivoNuevo.write(texto)
     return nombreArchivo
 
 # Vista para listar un unico archivo por id
 @api_view(['GET'])
-def listar_un_archivo(request,pk):
+def listar_un_archivo(request, pk):
     if request.method == 'GET':
         try:
             archivo = ArchivoSnippet.objects.get(pk=pk)
         except ArchivoSnippet.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
         serializarArchivo = ArchivoSerializador(archivo)
-        serializarArchivo.data['archivo']=open('media/archivos/'+serializarArchivo.data['nombreArchivo'], "r")
+        serializarArchivo.data['archivo'] = open('media/archivos/'+serializarArchivo.data['nombreArchivo'], "r")
         return Response(serializarArchivo.data)
+
+# Vista para retornar la emergencia asignada
+@api_view(['GET'])
+def emergencia_ambulancia(request, numeroMovil):
+    if request.method == 'GET':
+        try:
+            emergencia = EmergenciaSnippet.objects.get(ambulancia=numeroMovil)
+        except EmergenciaSnippet.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+        serializarEmergencia = EmergenciaSerializador(emergencia.last)
+        return Response(serializarEmergencia.data)
+
+# Vista para terminar y actualizar el comentario de una emergencia
+@api_view(['POST'])
+def terminar_emergencia(request):
+    if request.method == 'POST':
+        try:
+            emergencia = EmergenciaSnippet.objects.get(request.POST['id'])
+        except EmergenciaSnippet.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+        serializarEmergencia = EmergenciaSerializador(emergencia)
+        serializarEmergencia.update(emergencia, request.POST['comentario'])
+        return Response(serializarEmergencia.data)

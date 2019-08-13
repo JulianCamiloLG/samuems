@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_cleanup',
     'rest_framework',
+    'clear_cache',
 ]
 # Libreria para aplicar estilos a los formularios
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
