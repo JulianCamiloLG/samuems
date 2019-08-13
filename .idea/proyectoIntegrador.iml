@@ -6,7 +6,11 @@
       <excludeFolder url="file://$MODULE_DIR$/samuemsjuli2" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Python 3.7 (samuems)" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Python 3.7 (samuems) (3)" jdkType="Python SDK" />
+>>>>>>> 4125c2aed592dd1cf66bef73589e9cc5442dc00d
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

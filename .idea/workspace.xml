@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/proyectoIntegrador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proyectoIntegrador.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/pisamuems/.coverage" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" afterDir="false" />
@@ -12702,6 +12703,8 @@
       <change beforePath="$PROJECT_DIR$/samuemsjuli/tcl/tk8.6/ttk/xpTheme.tcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/samuemsjuli/tcl/tk8.6/unsupported.tcl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/samuemsjuli/tcl/tk8.6/xmfbox.tcl" beforeDir="false" />
+=======
+>>>>>>> 4125c2aed592dd1cf66bef73589e9cc5442dc00d
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12771,7 +12774,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1088">
+=======
+            <state relative-caret-position="302">
+>>>>>>> 4125c2aed592dd1cf66bef73589e9cc5442dc00d
               <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
             </state>
           </provider>
@@ -12816,9 +12823,13 @@
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" />
         <option value="$PROJECT_DIR$/pisamuems/pisamuems/settings.py" />
+=======
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html" />
+>>>>>>> 4125c2aed592dd1cf66bef73589e9cc5442dc00d
       </list>
     </option>
   </component>
@@ -13072,6 +13083,7 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/pip/_internal/download.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="125">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
@@ -13095,6 +13107,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+=======
+        <state relative-caret-position="302">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+>>>>>>> 4125c2aed592dd1cf66bef73589e9cc5442dc00d
         </state>
       </provider>
     </entry>
