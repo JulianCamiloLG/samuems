@@ -1,4 +1,3 @@
-from pip._vendor.cachecontrol import serialize
 from rest_framework import serializers
 from .models import ArchivoSnippet, EmergenciaSnippet
 
