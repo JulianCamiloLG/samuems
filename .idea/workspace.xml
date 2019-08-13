@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63a3e1d-6b12-4257-b9dd-2be6a3052727" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/proyectoIntegrador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proyectoIntegrador.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="302">
               <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
             </state>
           </provider>
@@ -116,6 +116,7 @@
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" />
+        <option value="$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html" />
       </list>
     </option>
   </component>
@@ -171,6 +172,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -373,7 +375,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="302">
           <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
         </state>
       </provider>
