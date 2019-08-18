@@ -33,10 +33,12 @@ urlpatterns = [
     # Webservice Archivos
     path('listar_archivos/', listar_archivos),
     path('listar_archivo/<int:pk>', listar_un_archivo),
-    path('crear_archivo/', crear_archivo),
+
 
     # Webservice Emergencia
     path('emergencia_ambulancia/<int:numeroMovil>', emergencia_ambulancia),
-    path('terminar_emergencia/', terminar_emergencia)
+    path('terminar_emergencia/', terminar_emergencia),
+    path('listar_emergencias/', emergencias),
+    path('crear_emergencia/', crear_emergencia),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

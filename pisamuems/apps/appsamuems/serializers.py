@@ -7,14 +7,14 @@ class ArchivoSerializador(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
     creadoEn = serializers.DateTimeField(required=False)
     nombreArchivo = serializers.CharField(required=False)
-    cedulaPaciente = serializers.IntegerField()
+    cedulaPaciente = serializers.IntegerField(required=False)
     archivo = serializers.FileField(required=False)
 
     class Meta:
         model = ArchivoSnippet
         fields = '__all__'
 
-    def update(self,instance,archivo):
+    def update(self, instance, archivo):
         instance.nombreArchivo = archivo
         instance.save()
         return instance

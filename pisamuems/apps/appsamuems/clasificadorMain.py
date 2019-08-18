@@ -14,7 +14,7 @@ from pisamuems.apps.appsamuems.clasificadorInteligente.trainingData2 import trai
 
 clf = Classifier() # Instancia del clasificador
 
-for category,urls in DataH.items(): # Entrenamos al clasificador con el contenido de cada pagina
+for category, urls in DataH.items(): # Entrenamos al clasificador con el contenido de cada pagina
 	for url in urls:
 		time.sleep(1)
 		clf.train(getTextPage(url),category) # El metodo "getTextPage", recibe como argumento una url para extraer su texto

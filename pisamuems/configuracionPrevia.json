@@ -32,8 +32,8 @@
     "fields": {
       "nombre": "Hospital san juan de Dios",
       "direccion": "Carrera 32 # 72-02",
-      "latitud":5.050797,
-      "longitud": -75.492716,
+      "latitud": 5.048312,
+      "longitud": -75.492645,
       "telefono":8809794,
       "nivel":"1",
       "especialidad":"U",
@@ -46,8 +46,8 @@
     "fields": {
       "nombre": "Hospital Departamental de Caldas",
       "direccion": "Carrera 25 # 49 - 100",
-      "latitud":5.050797,
-      "longitud": -75.492716,
+      "latitud": 5.057575,
+      "longitud": -75.529901,
       "telefono":8901054,
       "nivel":"3",
       "especialidad":"T",
@@ -58,10 +58,10 @@
     "model": "appsamuems.Hospital",
     "pk": 3,
     "fields": {
-      "nombre": "Clinica de la Presentacion",
+      "nombre": "Clinica de la Presentación",
       "direccion": "Carrera 23 # 46 - 02",
-      "latitud":5.050797,
-      "longitud": -75.492716,
+      "latitud": 5.065666,
+      "longitud": -75.501974,
       "telefono":8901054,
       "nivel":"2",
       "especialidad":"T",
@@ -98,12 +98,12 @@
       "marca":"Mercedes Benz",
       "modeloA":1947,
       "placa":"JJJ-000",
-      "servicio":"O",
+      "servicio":"L",
       "fechaIngreso":"2000-12-31",
       "foto":"img/ambulancia2.jpg",
       "ubicacion":"chinchina",
-      "latitud":5.050797,
-      "longitud": -75.492716
+      "latitud": 5.0438940000,
+      "longitud": -75.5146190000
     }
   },
   {
@@ -121,13 +121,13 @@
       "fechaIngreso":"2019-06-01",
       "foto":"img/ambulancia3.png",
       "ubicacion":"Chipre",
-      "latitud":5.050797,
-      "longitud": -75.492716
+      "latitud": 5.0468250000,
+      "longitud": -75.5152900000
     }
   },
   {
     "model": "appsamuems.Paciente",
-    "pk": 123,
+    "pk": 25100125,
     "fields": {
       "nombre":"Natalia",
       "apellidoPaterno":"Cardona",
@@ -150,7 +150,7 @@
   },
   {
     "model": "appsamuems.Paciente",
-    "pk": 456,
+    "pk": 15956200,
     "fields": {
       "nombre":"Stefania",
       "apellidoPaterno":"Lopez",
@@ -173,7 +173,7 @@
   },
   {
     "model": "appsamuems.Paciente",
-    "pk": 789,
+    "pk": 1060653874,
     "fields": {
       "nombre":"Mariana",
       "apellidoPaterno":"Perez",
@@ -200,7 +200,9 @@
     "fields": {
       "creadoEn":"1991-08-14",
       "nombreArchivo":"log1060653874",
-      "cedulaPaciente":"1060653874"
+      "cedulaPaciente":1060653874,
+      "lat": 5.0439060000,
+      "lon": -75.5147160000
     }
   },
   {
@@ -209,7 +211,9 @@
     "fields": {
       "creadoEn":"2001-08-14",
       "nombreArchivo":"log15956200",
-      "cedulaPaciente":"15956200"
+      "cedulaPaciente":15956200,
+      "lat": 5.0438940000,
+      "lon": -75.5146190000
     }
   },
   {
@@ -218,7 +222,57 @@
     "fields": {
       "creadoEn":"2011-08-14",
       "nombreArchivo":"log25100125",
-      "cedulaPaciente":"25100125"
+      "cedulaPaciente": 25100125,
+      "lat": 5.0468250000,
+      "lon": -75.5152900000
+    }
+  },
+  {
+    "model": "appsamuems.EmergenciaSnippet",
+    "pk": 1,
+    "fields": {
+      "diagnostico": "Embarazo",
+      "lat": "5.0439060000",
+      "lon": "-75.5147160000",
+      "sintomas": "'Mareos, Vomito, Debilidad'",
+      "fechaReporte": "2018-02-03",
+      "paciente": 1060653874,
+      "ambulancia": 1,
+      "hospital": 1
+    }
+  },
+  {
+    "model": "appsamuems.EmergenciaSnippet",
+    "pk": 2,
+    "fields": {
+      "diagnostico": "Derrame cerebral",
+      "lat": 5.0438940000,
+      "lon": -75.5146190000,
+      "sintomas": "'Sangrado nasal, Dolor de cabeza, Mareo'",
+      "equipos": "",
+      "fechaReporte": "2018-02-02",
+      "estadoEmergencia": "E",
+      "comentarios": "",
+      "paciente": 15956200,
+      "ambulancia": 2,
+      "hospital": 2
+    }
+  },
+  {
+    "model": "appsamuems.EmergenciaSnippet",
+    "pk": 3,
+    "fields": {
+      "diagnostico": "Fractura de brazo",
+      "lat": 5.0468250000,
+      "lon": -75.5152900000,
+      "sintomas": "",
+      "equipos": "",
+      "fechaReporte": "2018-01-02",
+      "estadoEmergencia": "E",
+      "comentarios": "",
+      "paciente": 25100125,
+      "ambulancia": 3,
+      "hospital": 3
     }
   }
 ]

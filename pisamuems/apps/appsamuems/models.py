@@ -95,6 +95,8 @@ class ArchivoSnippet(models.Model):
     nombreArchivo = models.CharField(max_length=100)
     cedulaPaciente = models.IntegerField()
     archivo = models.FileField(upload_to='archivos/', blank=True)
+    lat = models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
+    lon = models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
 
     def __str__(self):
         return self.nombreArchivo
@@ -105,16 +107,15 @@ class EmergenciaSnippet(models.Model):
     paciente = models.ForeignKey(Paciente, on_delete=models.DO_NOTHING)
     ambulancia = models.ForeignKey(Ambulancia, on_delete=models.DO_NOTHING)
     hospital = models.ForeignKey(Hospital, on_delete=models.DO_NOTHING)
-    diagonostico = models.CharField(max_length=50)
-    destino = models.CharField(max_length=255)
+    diagnostico = models.CharField(max_length=50)
+    lat = models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
+    lon = models.DecimalField(max_digits=20, decimal_places=10, blank=False, default=0.0)
     sintomas = models.CharField(max_length=255, blank=True)
     equipos = models.CharField(max_length=255, blank=True)
     fechaReporte = models.DateTimeField(auto_now_add=True)
     estados = (('T', 'Terminada'), ('E', 'En curso'), ('C', 'Cancelada'), ('L', 'Libre'))
-    estadoEmergencia = models.CharField(max_length=1, choices=estados, default='L')
+    estadoEmergencia = models.CharField(max_length=1, choices=estados, default='E', blank=True)
     comentarios = models.CharField(max_length=255, blank=True)
 
     def __str__(self):
-        return self.paciente + self.fechaReporte
-
-
+        return str(self.paciente) + "-" + str(self.fechaReporte)
