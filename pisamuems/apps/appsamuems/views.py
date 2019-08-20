@@ -42,11 +42,11 @@ def listarPaciente(request):
 
 # Editar paciente
 def editarPaciente(request, cedula):
-    paciente = Paciente.objects.get(cedula = cedula)
+    paciente = Paciente.objects.get(cedula=cedula)
     if request.method == 'GET':
-        form = pacienteForm(instance = paciente)
+        form = pacienteForm(instance=paciente)
     else:
-        form = pacienteForm(request.POST, instance = paciente)
+        form = pacienteForm(request.POST, instance=paciente)
         if form.is_valid():
             form.save()
         return redirect('index')
@@ -55,7 +55,7 @@ def editarPaciente(request, cedula):
 
 # Eliminar paciente
 def eliminarPaciente(request, cedula):
-    paciente = Paciente.objects.get(cedula = cedula)
+    paciente = Paciente.objects.get(cedula=cedula)
     if request.method == 'POST':
         paciente.delete()
         return redirect('index')
@@ -109,11 +109,11 @@ def listarAmbulancia(request):
 
 # Editar ambulancia
 def editarAmbulancia(request, movil):
-    ambulancia = Ambulancia.objects.get(numeroMovil = movil)
+    ambulancia = Ambulancia.objects.get(numeroMovil=movil)
     if request.method == 'GET':
-        form = ambulanciaForm(instance = ambulancia)
+        form = ambulanciaForm(instance=ambulancia)
     else:
-        form = ambulanciaForm(request.POST, instance = ambulancia)
+        form = ambulanciaForm(request.POST, instance=ambulancia)
         if form.is_valid():
             form.save()
         return redirect('index')
@@ -122,7 +122,7 @@ def editarAmbulancia(request, movil):
 
 # Eliminar ambulancia
 def eliminarAmbulancia(request, movil):
-    ambulancia = Ambulancia.objects.get( numeroMovil = movil)
+    ambulancia = Ambulancia.objects.get(numeroMovil=movil)
     if request.method == 'POST':
         ambulancia.foto.delete(save=True)
         ambulancia.delete()
@@ -177,11 +177,11 @@ def listarHospital(request):
 
 # Editar Hospital
 def editarHospital(request, id):
-    hospital = Hospital.objects.get(id1= id)
+    hospital = Hospital.objects.get(id1=id)
     if request.method == 'GET':
-        form = HospitalForm(instance = hospital)
+        form = HospitalForm(instance=hospital)
     else:
-        form = HospitalForm(request.POST, instance = hospital)
+        form = HospitalForm(request.POST, instance=hospital)
         if form.is_valid():
             form.save()
         return redirect('index')
@@ -190,7 +190,7 @@ def editarHospital(request, id):
 
 # Eliminar Hospital
 def eliminarHospital(request, id):
-    hospital = Hospital.objects.get( id1= id)
+    hospital = Hospital.objects.get(id1=id)
     if request.method == 'POST':
         hospital.delete()
         return redirect('index')
@@ -228,7 +228,7 @@ class deleteHospital(DeleteView):
 def listar_archivos(request):
     if request.method == 'GET':
         archivos = ArchivoSnippet.objects.all()
-        serializarArchivos = ArchivoSerializador(archivos,many=True)
+        serializarArchivos = ArchivoSerializador(archivos, many=True)
         return Response(serializarArchivos.data)
 
 

@@ -3,6 +3,7 @@ from collections import defaultdict
 from fractions import Fraction
 from .ExtractWords import getWords, wordFreq
 
+
 class Classifier(object):
 
     def default(self):

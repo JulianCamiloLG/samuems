@@ -3,6 +3,7 @@ from django.urls import reverse_lazy
 from django import forms
 from .models import *
 
+
 # Formulario para los datos del paciente
 class pacienteForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):

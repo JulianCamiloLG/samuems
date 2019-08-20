@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cd027b4d-a9e0-4e01-8663-6ddd9a43aeb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0002_auto_20190716_1535.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0003_auto_20190718_1637.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0004_paciente_medicamentos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/migrations/0005_auto_20190813_0115.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/StringClf.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/StringClf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" beforeDir="false" afterPath="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pisamuems/media/archivos/25-07-2019_17-18-24_31333333" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="270" column="45" selection-start-line="270" selection-start-column="45" selection-end-line="270" selection-end-column="45" />
+            <state relative-caret-position="143">
+              <caret line="315" column="41" selection-start-line="315" selection-start-column="41" selection-end-line="315" selection-end-column="41" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -40,9 +31,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/ExtractWords.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-112">
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/StringClf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/configuracionPrevia.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="330">
               <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
             </state>
           </provider>
@@ -63,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="85">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -75,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1163">
+            <state relative-caret-position="1785">
               <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
             </state>
           </provider>
@@ -109,11 +150,13 @@
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorMain.py" />
         <option value="$PROJECT_DIR$/pisamuems/media/archivos/18-08-2019_01-13-36_1060653874" />
         <option value="$PROJECT_DIR$/pisamuems/configuracionPrevia.json" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/StringClf.py" />
+        <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py" />
         <option value="$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="117" />
     <option name="y" value="155" />
     <option name="width" value="1005" />
@@ -124,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,20 +197,33 @@
               <item name="samuems" type="b2602c69:ProjectViewProjectNode" />
               <item name="samuems" type="462c0819:PsiDirectoryNode" />
               <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="appsamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="clasificadorInteligente" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="samuems" type="b2602c69:ProjectViewProjectNode" />
               <item name="samuems" type="462c0819:PsiDirectoryNode" />
               <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="archivos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samuems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samuems" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="samuems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samuems" type="462c0819:PsiDirectoryNode" />
+              <item name="pisamuems" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="aplicacion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,39 +329,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/ExtractWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/trainingData2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3033" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/StringClf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-707">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/media/archivos/17-08-2019_22-43-55_123" />
     <entry file="file://$PROJECT_DIR$/pisamuems/media/archivos/17-08-2019_23-04-40_123" />
     <entry file="file://$PROJECT_DIR$/pisamuems/media/archivos/18-08-2019_00-39-28_1060653874" />
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -312,6 +344,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/media/archivos/18-08-2019_01-13-36_1060653874" />
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -322,43 +355,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/configuracionPrevia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/baseListar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/templates/aplicacion/listar_ambulancia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="315" column="41" selection-start-line="315" selection-start-column="41" selection-end-line="315" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/models.py">
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1163">
-          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/media/archivos/18-08-2019_01-13-36_1060653874">
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/StringClf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/configuracionPrevia.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="100" column="19" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="270" column="45" selection-start-line="270" selection-start-column="45" selection-end-line="270" selection-end-column="45" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pisamuems/apps/appsamuems/clasificadorInteligente/ExtractWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
