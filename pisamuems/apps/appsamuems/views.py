@@ -381,7 +381,7 @@ def emergencias(request):
 def terminar_emergencia(request):
     if request.method == 'POST':
         try:
-            emergencia = EmergenciaSnippet.objects.get(request.POST['id'])
+            emergencia = EmergenciaSnippet.objects.get(pk=request.POST['id'])
         except EmergenciaSnippet.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
         serializarEmergencia = EmergenciaSerializador(emergencia)
