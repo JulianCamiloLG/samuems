@@ -1,0 +1,1 @@
+web: gunicorn samuems.wsgi --log-file -
