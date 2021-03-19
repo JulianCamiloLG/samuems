@@ -9,7 +9,7 @@ django-cleanup==4.0.0
 django-clear-cache==0.3
 django-crispy-forms==1.7.2
 django-restframework==0.0.1
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 graphviz==0.11.1
 gunicorn==19.9.0
 hmmlearn==0.2.2
